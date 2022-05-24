@@ -45,7 +45,7 @@ html {
         radial-gradient(ellipse at center, rgba(0,0,255,0.3) 0%, rgba(0,0,0,0) 70%), /* niebieski */
         radial-gradient(ellipse at center, rgba(255,0,0,0.3) 0%, rgba(0,0,0,0) 70%), /*czerwony */
         radial-gradient(ellipse at center, rgba(0,255,0,0.3) 0%, rgba(0,0,0,0) 70%) /*zielony */
-        #c3d7db;
+        #c3cbdb;
     background-repeat: 
         no-repeat, 
         no-repeat, 
@@ -334,6 +334,7 @@ section{
     color:var(--black);
     cursor: pointer;
 }
+
 
 
 
