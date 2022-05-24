@@ -426,7 +426,7 @@ section{
 
 .featured .featured-slider .box .image{
     padding:1rem;
-    background: linear-gradient(15deg, #eee 30%, #d8e0fffb 30.1%);
+    background: linear-gradient(15deg, #eee 30%, #d8e0ff3b 30.1%);
 }
 
 .featured .featured-slider .box:hover .image{
