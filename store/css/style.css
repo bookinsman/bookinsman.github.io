@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#e7a71d;
-    --dark-color:#219150;
+    --green:#d39a1e;
+    --dark-color:#27ad5f;
     --black:#444;
     --light-color:#666;
     --border:.1rem solid rgba(0,0,0,.1);
@@ -706,13 +706,6 @@ section{
 .loader-container img{
     height:10rem;
 }
-
-
-
-
-
-
-
 
 
 
