@@ -1,0 +1,51 @@
+
+.output {
+  text-align:center;
+  color:rgb(0, 0, 0);
+  font-size:20px;
+  gap:1.5rem;
+  margin-top: 4rem;
+  background-image: linear-gradient(to right, #E44D26 0%, #F16529 51%, #E44D26 100%);    
+  padding: 0.9rem 3rem;
+  text-transform: uppercase;
+  color: #eee;
+  box-shadow: 0 0 20px rgb(6, 6, 6);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/* Cursor Styling */
+
+.cursor::after {
+  content:'';
+  display:inline-block;
+  margin-left:3px;
+  background-color:rgb(0, 0, 0);
+  animation-name:blink;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+}
+h1.cursor::after {
+  height:24px;
+  width:13px;
+}
+p.cursor::after {
+  height:13px;
+  width:6px;
+}
+
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  49% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}

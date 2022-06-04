@@ -8,11 +8,17 @@
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/typing.css">
+
+    <link rel="stylesheet" href="css/testikas.css">
 
 
 </head>
@@ -22,152 +28,135 @@
 
 <header class="header">
 
-    <div class="header-1">
-
-        
-        <a href="#" class="logo"> <i class="fas fa-book"></i> BookinsMan </a>
-    
-
-
-
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <div id="login-btn" class="fas fa-user"></div>
-        </div>
-
+    <div class="header-2">
+        <nav class="navbar">        
+                <ul><a href="#home">Apie mus</a>
+                    <a href="#featured">Produktai</a>
+                    <a href="#arrivals">Kas viduje</a>
+                    <a href="#blogs">Tinklaraštis</a>
+                </ul>
+        </nav>
     </div>
-
 
 </header>
 
 <!-- header section ends -->
 
 
-<!-- login form  -->
-
-<div class="login-form-container">
-
-    <div id="close-login-btn" class="fas fa-times"></div>
-
-    <form action="">
-        <h3>sign in</h3>
-        <span>username</span>
-        <input type="email" name="" class="box" placeholder="enter your email" id="">
-        <span>password</span>
-        <input type="password" name="" class="box" placeholder="enter your password" id="">
-        <div class="checkbox">
-            <input type="checkbox" name="" id="remember-me">
-            <label for="remember-me"> remember me</label>
-        </div>
-        <input type="submit" value="sign in" class="btn">
-        <p>forget password ? <a href="#">click here</a></p>
-        <p>don't have an account ? <a href="#">create one</a></p>
-    </form>
-
-</div>
-
 <!-- home section starts  -->
 
-<section class="home" id="home">
-
-    <div class="row">
+        <section class="deal">
 
             <div class="content">
-                <h3>The Place to spend your time </h3>
+                <h1>Protingas ir eidamas</h1>
+                <p>Kadangi dauguma žmonių šiais laikais labiau 
+                    linkę tikrinti savo telefonus, o ne knygą, 
+                    daugiausia dėmesio skyrėme interaktyvios skaitymo patirties kūrimui, 
+                    kad mokymasis būtų įdomus ir aktualus šiandieninei kartai.</p>
+                
             </div>
+        
+            <div class="image">
+                <img src="image/deal-img.png" alt="">
+            </div>
+        
+        </section>
+
+        
+        <section>
+            
+        </section>
+
+        
+ 
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
 
 
-</section>
 
+<!-- icons section ends -->
 
-
-<!-- knygos  -->
+<!-- featured section starts  -->
 
 <section class="featured" id="featured">
 
-    <h1 class="heading"> <span>PREMIUM</span> </h1>
+    <h1 class="heading"> <span>DELUXE MOMENT</span> </h1>
 
     <div class="swiper featured-slider">
 
         <div class="swiper-wrapper">
 
             <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+
+
+
                 <div class="image">
                     <img src="image/book-1.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>knygu klubas</h3>
+                    <h3>Meta</h3>
                     <div class="price"> <span></span></div>
-                    <a href="https://bookinsman.github.io/chat/" class="btn">Read</a>
                 </div>
             </div>
 
             <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+
                 <div class="image">
                     <img src="image/book-2.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <h3>Kūrybiškumas</h3>
+                    <div class="price"><span></span></div>
+
                 </div>
             </div>
 
             <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+
                 <div class="image">
                     <img src="image/book-3.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Psichologija</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+
                 </div>
             </div>
 
             <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+
                 <div class="image">
                     <img src="image/book-4.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Filosofija</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+
                 </div>
             </div>
 
             <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+
                 <div class="image">
                     <img src="image/book-5.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Technologijos</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+    
+                <div class="image">
+                    <img src="image/book-6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Našumas</h3>
+                    <div class="price"> <span></span></div>
+
                 </div>
             </div>
 
@@ -180,94 +169,231 @@
 
 </section>
 
+<section>
 
-<section class="featured" id="featured">
+</section>
 
-    <h1 class="heading"> <span>EDUCATIONAL</span> </h1>
+<!-- featured section ends -->
 
-    <div class="swiper featured-slider">
+<section class="nanik">
+
+    <div class="image">
+        <img src="image/left.png" alt="">
+    </div>
+
+    <div class="content">
+        <h1>Žinios kišenėje</h1>
+        <p>„BookinsMan“ yra geriausias būdas išlaikyti savo smegenis aštrias. 
+            Sužinokite daugiau su mažiau pastangų. 
+            Įgyvendink savo mokymosi tikslus per trečdalį laiko, kurio prireiktų įprastinei knygai perskaityti. 
+            Smagios interaktyvios istorijos, kurios paliks pilna galva vertingų žinių ir supratimo
+            apie gyvenimą ir jo aplinkybes. </p>
+    </div>
+
+</section>
+
+<section>
+
+
+</section> 
+
+
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>BRILLIANT</span> </h1>
+
+    <div class="swiper arrivals-slider">
 
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-1.png" alt="">
+                    <img src="image/book-7.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>knygu klubas</h3>
+                    <h3>Menas
+                    </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                     <div class="price"> <span></span></div>
-                    <a href="https://bookinsman.github.io/chat/" class="btn">Read</a>
-                </div>
-            </div>
+                    <div class="stars">
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    </div>
                 </div>
-                <div class="image">
-                    <img src="image/book-2.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
-                </div>
-            </div>
+            </a>
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-3.png" alt="">
+                    <img src="image/book-8.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Mokslas</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-4.png" alt="">
+                    <img src="image/book-9.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Skaitymas</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-5.png" alt="">
+                    <img src="image/book-10.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Gamta ir aplinka</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-11.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Finansai</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-12.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Visuomenė ir kultūra</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-13.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Biografijos ir memuarai</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-14.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sveikata ir mityba
+                    </h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-15.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Marketingas ir reklama</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-16.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Loginis mąstymas</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
 
         </div>
 
@@ -278,94 +404,200 @@
 
 </section>
 
+<!-- arrivals section ends -->
 
-<section class="featured" id="featured">
+<!-- arrivals section starts  -->
 
-    <h1 class="heading"> <span>STORIES</span> </h1>
+<section class="arrivals" id="arrivals">
 
-    <div class="swiper featured-slider">
+    <h1 class="heading"> <span>ARSENAL</span> </h1>
+
+    <div class="swiper arrivals-slider">
 
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-1.png" alt="">
+                    <img src="image/book-17.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>knygu klubas</h3>
+                    <h3>Karjera </h3>
                     <div class="price"> <span></span></div>
-                    <a href="https://bookinsman.github.io/chat/" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-2.png" alt="">
+                    <img src="image/book-18.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Valdymas ir lyderystė</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-3.png" alt="">
+                    <img src="image/book-19.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Verslumas</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-4.png" alt="">
+                    <img src="image/book-20.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Kritinis mąstymas
+                    </h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="swiper-slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+            <a href="#" class="swiper-slide box">
                 <div class="image">
-                    <img src="image/book-5.png" alt="">
+                    <img src="image/book-21.png" alt="">
                 </div>
                 <div class="content">
-                    <h3>featured books</h3>
+                    <h3>Informatika</h3>
                     <div class="price"> <span></span></div>
-                    <a href="#" class="btn">Read</a>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
-            </div>
+            </a>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-22.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kognityvizmas</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-23.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Emocinis intelektas
+                    </h3>
+                    <div class="price"><span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-24.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Istorija</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-25.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dizaino mąstymas</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-26.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Užsienio kalbos mokymasis</h3>
+                    <div class="price"> <span></span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
 
         </div>
 
@@ -376,9 +608,107 @@
 
 </section>
 
+<!-- arrivals section ends -->
+
+<section>
+    
+</section>
 
 
 
+
+<section class="container py-5">
+
+    <div class="container py-5">
+        <div class="output" id="output">
+          <h1 class="cursor"></h1>
+          <p></p>
+        </div>
+      </div>
+
+</section>
+
+
+
+
+<!-- blogs section starts  -->
+
+<section 
+
+   class="blogs" id="blogs">
+
+
+
+    <section></section>
+    
+    <h1 class="heading"> <span>Tinklaraštis</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
 
 
 <!-- footer section starts  -->
@@ -387,7 +717,30 @@
 
     <div class="box-container">
 
-                
+        <div class="box">
+            <h2>Taisyklės ir sąlygos
+            </h2>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Dokumentacija
+            </a>
+        </div>
+
+        <div class="box">
+            <h2>Apmokėjimai</h2>
+            <a href="#"> <i class="fas fa-arrow-right"></i> mokėjimo būdas </a>
+        </div>
+
+        <div class="box">
+            <h2>Mūsų paslauga</h2>
+            <a href="#"> <i class="fas fa-arrow-right"></i> kas viduje </a>
+        </div>
+
+        <div class="box">
+            <h2>Kontaktinė informacija</h2>
+            <a href="869512930"> <i class="fas fa-phone"></i> 869512930 </a>
+
+            <a href="bookinsman@gmail.com"> <i class="fas fa-envelope"></i> bookinsman@gmail.com </a>
+        </div>
+        
     </div>
 
     <div class="share">
@@ -397,10 +750,28 @@
         <a href="#" class="fab fa-linkedin"></a>
     </div>
 
+    <div class="credit"> <span>2022</span> | all rights reserved! </div>
 
 </section>
 
 <!-- footer section ends -->
+
+<!-- timeline  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -410,6 +781,7 @@
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 <!-- custom js file link  -->
+<script src="js/typing.js"></script>
 <script src="js/script.js"></script>
 
 </body>
