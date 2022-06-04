@@ -74,7 +74,6 @@ section{
 
 .heading span{
     font-size: 3rem;
-    box-shadow: 0 0 30px rgb(84, 44, 1);
     padding:.5rem 2rem;
     color:var(--black);
     background: rgba(255, 247, 221, 0.236);
