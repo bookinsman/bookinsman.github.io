@@ -506,6 +506,10 @@ section{
     line-height: 2;
 }
 
+.footer {
+    background: rgba(252,176,69,1);
+  }
+
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
