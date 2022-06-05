@@ -17,7 +17,7 @@ nav ul {
 
 
 .steps {
-  background: linear-gradient(360deg, rgba(252,176,69,1) 57%, rgba(255,247,221,0.9979342078628326) 57%, rgba(255,247,221,1) 57%);
+  background: linear-gradient(360deg, #E588A3 57%, rgba(255,247,221,0.9979342078628326) 57%, rgba(255,247,221,1) 57%);
 }
 
 .steps .box-container {
