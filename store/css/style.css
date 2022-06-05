@@ -349,9 +349,6 @@ section{
     flex-direction: column;
 }
 
-.arrivals .arrivals-slider .box:hover{
-    border:var(--border-hover);
-}
 
 .arrivals .arrivals-slider .box .image img{
     height:23rem;
