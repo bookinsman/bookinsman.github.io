@@ -421,7 +421,7 @@ section{
 
 .nanik{
     
-    background: linear-gradient(90deg, rgba(255,247,221,0.9979342078628326) 10%, rgba(255,247,221,1) 20%, rgba(252,176,69,1) 10%);
+    background: linear-gradient(347deg, rgba(255,247,221,0.9979342078628326) 10%, rgba(255,247,221,1) 20%, #f1d9ff 10%);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
