@@ -291,7 +291,7 @@ section{
 }
 
 .featured .featured-slider .box .content{
-    background:rgba(252 176 69);
+    background:rgba(255, 255, 255, 0);
     padding:1.5rem;
 }
 
@@ -345,7 +345,7 @@ section{
     border-radius: 15px;
     margin:1rem 0;
     background: rgb(252,176,69);
- background: linear-gradient(90deg, rgba(252,176,69,1) 57%, rgba(255,247,221,0.9979342078628326) 57%, rgba(255,247,221,1) 57%);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 57%, rgba(255,247,221,0.9979342078628326) 57%, rgba(255,247,221,1) 57%);
     flex-direction: column;
 }
 
@@ -378,7 +378,7 @@ section{
 
 .deal{
     
-     background: linear-gradient(90deg, rgba(252,176,69,1) 57%, rgba(255,247,221,0.9979342078628326) 57%, rgba(255,247,221,1) 57%);
+     background: linear-gradient(180deg, rgb(252 176 69) 10%, rgba(255,247,221,0.9979342078628326) 57%, rgba(255,247,221,1) 57%);
      display: flex;
      align-items: center;
      flex-wrap: wrap;
@@ -456,7 +456,7 @@ section{
 
 .nanik .content p{
     FONT-WEIGHT: 400;padding:1rem 0;
-    color: #000;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     line-height: 2;
 }
