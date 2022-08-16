@@ -443,7 +443,7 @@ let messages = [
   {
     who: "Katinas",
     type: "text",
-    text: "Labas, kelkis! Čia geriau negulėti, nes vėliau ateina valytojai ir šluodamos vaiko katinus, o tai nėra labai malonus jausmas…",
+    text: "Labas, kelkis! Čia geriau negulėti, nes vėliau ateina valytojai ir šluodami vaiko katinus, o tai nėra labai malonus jausmas…",
     time: 1500,
   },
   {
