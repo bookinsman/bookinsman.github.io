@@ -329,7 +329,7 @@ let messages = [
   {
     who: "Augalas",
     type: "text",
-    text: "Gaunu malonumą, kai čiulba paukščiai. Tai ženklas man, kad jau laikas keltis ir ruoštis diena",
+    text: "Gaunu malonumą, kai čiulba paukščiai. Tai ženklas man, kad jau laikas keltis ir ruoštis dienai.",
     time: 3500,
   },
   {
@@ -431,7 +431,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Moteris. Štai, tau ant palangės pastovės šitas augalas, jam reikia daugiau šviesos, o Tavo kambaryje jos pakankamai.",
+    text: "Štai, tau ant palangės pastovės šitas augalas, jam reikia daugiau šviesos, o Tavo kambaryje jos pakankamai.",
     time: 3500,
   },
   {
