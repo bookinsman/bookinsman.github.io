@@ -269,7 +269,7 @@ let messages = [
   {
     who: "Vėžlys",
     type: "text",
-    text: "Ne, mielas kolega. Mes esame akvariume ir už kelių minučių prasidės pats įdomumas, ateik arčiau stiklo. ",
+    text: "Ne, mielas kolega. Tai tik mūsų svajonės. Mes esame akvariume ir už kelių minučių prasidės pats įdomumas, ateik arčiau stiklo. ",
     time: 1500,
   },
   {
@@ -383,12 +383,6 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Ką? ",
-    time: 3500,
-  },
-  {
-    who: "",
-    type: "text",
     text: "Galbūt Aistė atsakys?",
     time: 1500,
   },
@@ -441,9 +435,9 @@ let messages = [
     time: 3500,
   },
   {
-    who: "",
+    who: "Gediminas",
     type: "text",
-    text: "Ar žinote, kad per didelis krūvis, per dažnas mokymasis, gali būti žalingas?",
+    text: "Girdėjau, kad per didelis krūvis, per dažnas mokymasis, gali būti žalingas?",
     time: 3500,
   },
   {
