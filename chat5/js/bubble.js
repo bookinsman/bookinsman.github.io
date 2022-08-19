@@ -178,7 +178,7 @@ let messages = [
   },
   {
     who: "",
-    type: "Ką? Girdžiu mamos balsą?",
+    type: "Ką?? Girdžiu mamos balsą?",
     text: "Judam",
     time: 1500,
   },
