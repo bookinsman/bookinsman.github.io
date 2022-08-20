@@ -387,8 +387,7 @@ let messages = [
   },
   {
     who: "",
-    type: "img",
-    img:  "https://lh3.googleusercontent.com/EdHuRKLfm9CPFJmvwke0ilS42FDEqKkxRXR9RlDwIf_6cRsEsWek_KG7Vf5Fd227iFZbJE6fi7vxhOGAoUwLyvD08msAV3hUTgzfXhuW7bouHYAGhQ4Bc0Y01_sejUk_BBIvRkEmWw=w2400",
+    text: "https://lh3.googleusercontent.com/M9HXx-ASqEbChw5fIo1KluNbg6EZK6otlt1vVsaYtSy2h2knsJzmopJXiIxBMQgdmw1ENQf-2rjbkf9h9jsagR2GhIXdcbsi4ZvHGA64i6soLy2j3VSaJN6h4m9aUd6FXSjAjn4z4w=w2400",
     time: 1500,
   },
   {
