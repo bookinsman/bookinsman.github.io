@@ -201,7 +201,7 @@ let messages = [
     time: 1500,
   },
   {
-    who: "Mama",
+    who: "",
     type: "text",
     text: "Aš tikiu, kad mes tai galime padaryti. Tai nėra greitas kelias į sėkmę, tai nėra lengvas kelias. Tai kelias, kuris ugdo tavo asmenybę, formuoja mąstymą ir ryžtą. Tai kelias, kuris nuves Tave į sėkmę.",
     time: 3500,
@@ -245,12 +245,6 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Sutinku, keistas reiškinys, bet nors jo nematėte, o Jūsų vaizduotė jau dirba savo darbą. Jūs mintyse jau matote šį paveikslą. Tik reikėjo įsiklausyti į žodžius.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
     text: "Reikia nuolat tyrinėti save, grūdinti valią, protą, charakterį, jausmus. Tai, žinoma,  nėra lengva.",
     time: 3500,
   },
@@ -273,7 +267,7 @@ let messages = [
     time: 1500,
   },
   {
-    who: "Žmonės",
+    who: "",
     type: "text",
     text: "Manau, kad jau pats atsakei į šį klausimą. Žinoma, kad taip.",
     time: 3500,
