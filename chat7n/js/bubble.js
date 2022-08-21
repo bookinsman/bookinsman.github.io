@@ -268,9 +268,9 @@ let messages = [
   },
 
   createQuiz("Tai Tau liko..."
-  , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">34 minutės</label></div>',
-      '<div><input type="radio" name="q1" id="opt2"><label for="opt2">51 minutė</label></div>',
-      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">17 minučių</label></div>'], "teisingai", "pro šalį", "opt1"),
+  , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">51 minutė</label></div>',
+      '<div><input type="radio" name="q1" id="opt2"><label for="opt2">34 minutės</label></div>',
+      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">17 minučių</label></div>'], "teisingai", "pro šalį", "opt2"),
   {
     who: "",
     type: "text",
@@ -382,7 +382,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Šiuo metu esu prie durų, reikia surinkti tam tikrą kodą:",
+    text: "Šiuo metu esu prie durų.",
     time: 1500,
   },
   {
@@ -390,36 +390,235 @@ let messages = [
     text: "https://lh3.googleusercontent.com/M9HXx-ASqEbChw5fIo1KluNbg6EZK6otlt1vVsaYtSy2h2knsJzmopJXiIxBMQgdmw1ENQf-2rjbkf9h9jsagR2GhIXdcbsi4ZvHGA64i6soLy2j3VSaJN6h4m9aUd6FXSjAjn4z4w=w2400",
     time: 1500,
   },
+
+  createQuiz("Būtinas kodas:"
+  , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">Kodas - A</label></div>',
+      '<div><input type="radio" name="q1" id="opt2"><label for="opt2">Kodas - B</label></div>',
+      '<div><input type="radio" name="q1" id="opt2"><label for="opt2">Kodas - C</label></div>',
+      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Kodas - D</label></div>'], "teisingai", "pro šalį", "opt1"),
+
   {
     who: "",
     type: "text",
-    text: "Pagalvok minutę, kiek daug gero savyje turi. Pamąstyk, kiek tuo gėriu gali džiaugtis ir dalintis su kitais laisvalaikio metu.",
+    text: "Taip, man pavyko. Turiu šiek tiek pailsėti, nes deguonies lygis krenta.",
     time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "Laisvą laiką reikia ir būtina išnaudoti tinkamai. Mes laukiame naujo filmo, kuris tuoj turi prasidėti, laukiame draugų, kurie turi tuoj ateiti. Tačiau, taip ir neateina laiku.",
+    text: "Lukas praėjęs erdvėlaivį nieko neaptiko. Dabar jis stovėjo priešais kapitono langą, pro kurį atsivėrė neregėtas vaizdas….",
+    time: 1500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Lukai, ar mane girdite, čia kapitonas.",
+    time: 3500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Ką Jūs matote?",
     time: 1500,
   },
   {
     who: "",
     type: "text",
-    text: "O kiek gi galima būtų nuveikti, jeigu žodis „laukimas“, būtų paverstas „veikimu“.",
+    text: "Taip, girdžiu ir matau…",
     time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "Tikriausiai kiekvienas pats atsakys į šį klausimą, kiek ir ko galėtų pasiekti, jeigu tinkamai išnaudotų laisvą laiką.",
-    time: 1500,
+    text: "Matau raudonai geltonos spalvos sieną, kuri nuolatos keičiasi, šviečia labai ryškiai. Daugiau nieko, pone.",
+    time: 3500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Supratau.",
+    time: 3500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Pabandykite paspaust GPS mygtuką, galbūt tai padės mums atsekti jūsų buvimo vietą.",
+    time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "Šis pasakojimas baigtas, sekantis bus kitą dieną!",
+    text: "Tuojau",
     time: 3500,
   },
+  {
+    who: "",
+    type: "text",
+    text: "Čia trūksta energijos skysčio, kad įsijungtų GPS. Pamenu, kad į bakelį reikia įpilti lygiai vieną litą, o matavimo skalė sulaužyta. ",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Lukas apieškojo laivą ir surado du skirtingus indelius. Vienas trijų litrų ir penkių litrų. Ar jam pavyktų įpilti vieną litrą turint 20 litrų skysčio?",
+    time: 3500,
+  },
+
+  createQuiz("Būtinas kodas:"
+  , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">Taip</label></div>',
+      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Ne</label></div>'], "teisingai", "pro šalį", "opt1"),
+  {
+    who: "",
+    type: "text",
+    text: "Taip, man pavyko, ar Jūs mane matote?",
+    time: 3500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Drauguži, mes Tave aptikome….",
+    time: 3500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Kažkodėl rodo, kad Tavo laivas yra 20 kilometrų po žeme. Tai, ką Tu vadinai ryškia šviesa, yra magma, kuri Tavo laivą skandina vis giliau į žemės branduolį.",
+    time: 3500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Tau tereikia išgirst balsą.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Ką?",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Kokį balsą?",
+    time: 3500,
+  },
+  {
+    who: "Jurgenas",
+    type: "text",
+    text: "Tau tereikia atsibusti. Ar girdi, kaip Tave kviečia?",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Pabusk, Pabusk.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Ir Lukas pabudo. Tai buvo jo šešerių metų dukros balsas. Dukrytė norėjo pusryčių. Žadino tėvą astronautą, kuris vos už kelių mėnesių turi išskristi į mėnulį.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Gabriele, nepatikėsi kokį aš sapną Tau dabar papasakosiu…",
+    time: 3500,
+  },
+  {
+    who: "Gabrielė",
+    type: "text",
+    text: "Manau bus labai įdomus, bet aš noriu valgyti!",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Pavalgę jiedu atsisėdo ant patogios sofos ir Lukas nupasakojo dukrytei savo sapną. Mąstė, ką gi galima nuveikti tokį gražų rytą...",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "O žinai ką?",
+    time: 3500,
+  },
+  {
+    who: "Gabrielė",
+    type: "text",
+    text: "Ką?",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Išspręskime kartu užduotį.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Įsivaizduok, kad mes esame mėnulyje. Ir staiga mūsų laivas sudužo.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Priverstinai leidomės tamsiojoje Mėnulio pusėje. Kitoje mėnulio pusėje mūsų laukia tinkamas naudoti raketinis lėktuvas be įgulos. Jam pasiekti reikia 250 kilometrų. Pusė kelio yra tamsiojoje mėnulio pusėje, pusė – šviesiojoje. Reaktyviniame lėktuve įrengtas radijo imtuvas. Mes su tavim visiškai nenukentėjome.",
+    time: 3500,
+  },
+  {
+    who: "Gabrielė",
+    type: "text",
+    text: "Ačiū dievui, o ką dabar mums daryt?",
+    time: 3500,
+  },
+  {
+    who: "Gabrielė",
+    type: "text",
+    text: "Juk čia taip tamsu…",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Nesijaudink, laive visada būna sąrašas reikalingiausių daiktų;",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Tau, Gabriele, šiuo metu reikia prie kiekvieno daikto parašyti skaičių, kuris būtų naudingas kelyje.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Prie svarbiausio dalyko parašyk skaičių 1, skaičių 2 – į antrą pagal svarbą ir taip iki keturiolikos. 14 žymi mažiausiai svarbų dalyką.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "O ką turiu daryti toliau? Man liko 2 minutės deguonies. Prašau, padėkite.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "O ką turiu daryti toliau? Man liko 2 minutės deguonies. Prašau, padėkite.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "O ką turiu daryti toliau? Man liko 2 minutės deguonies. Prašau, padėkite.",
+    time: 3500,
+  },
+
+  
 ];
 
 let totalMessages = messages.length;
