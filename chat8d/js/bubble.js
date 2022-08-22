@@ -304,7 +304,13 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Taip. Labai dažnai spręsdami šią užduotį, žmonės imasi įvairių „subtilių“ ir sudėtingų skaičiavimų bei svarstymų, negebėdami suprasti, kad musė be sustojimo skrido lygiai 3 valandas, taigi nuskrido 300 kilometrų",
+    text: "",
+    time: 1500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Labai dažnai spręsdami šią užduotį, žmonės imasi įvairių „subtilių“ ir sudėtingų skaičiavimų bei svarstymų, negebėdami suprasti, kad musė be sustojimo skrido lygiai 3 valandas, taigi nuskrido 300 kilometrų",
     time: 3500,
   },
   {
@@ -418,7 +424,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Aš tavo kambaryje palikau keletą knygų, kurias, manau, tau bus įdomu skaityti. Knygoje rasi įdomių mokslinių straipsnių, enciklopedijos ištraukų ir, žinoma, terminologijos žodyną. Na, o dabar lėk į virtuvę, močiutė ruošia mums pietus. ",
+    text: "Aš tavo kambaryje palikau keletą knygų, kurias, manau, tau bus įdomu skaityti. Knygose rasi įdomių mokslinių straipsnių, enciklopedijos ištraukų ir, žinoma, terminologijos žodyną. Na, o dabar lėk į virtuvę, močiutė ruošia mums pietus. ",
     time: 3500,
   },
   {
