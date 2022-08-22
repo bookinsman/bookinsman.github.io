@@ -294,7 +294,13 @@ let messages = [
   , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">50 kilometrų</label></div>',
       '<div><input type="radio" name="q1" id="opt2"><label for="opt2">300 kilometrų</label></div>',
       '<div><input type="radio" name="q1" id="opt2"><label for="opt2">75 kilometrai</label></div>',
-      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">100 kilometrų</label></div>'], "Teisingai", "Pro šalį", "opt2"),
+      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">100 kilometrų</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas 300km.", "opt2"),
+  {
+    who: "",
+    type: "text",
+    text: "",
+    time: 1500,
+  },
   {
     who: "",
     type: "text",
