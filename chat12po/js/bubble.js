@@ -454,6 +454,12 @@ let messages = [
   },
   {
     who: "",
+    type: "text",
+    text: "...",
+    time: 1500,
+  },
+  {
+    who: "",
     type: "Žmogus",
     text: "Visiškai teisingai.",
     time: 3500,
@@ -461,7 +467,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Noriu robotui užduoti sunkesnį klausimą. Įsivaizduokime, kad metate monetą 5 kartus iš eilės.",
+    text: "Noriu robotui užduoti sunkesnį klausimą. Įsivaizduokime, kad metama moneta 5 kartus iš eilės.",
     time: 1500,
   },
 
@@ -481,12 +487,12 @@ let messages = [
     who: "",
     type: "text",
     text: "...",
-    time: 3500,
+    time: 1500,
   },
   {
     who: "Žmogus",
-    type: "Matau puikiai tvarkosi.",
-    text: "...",
+    type: "text",
+    text: "Matau puikiai tvarkosi.",
     time: 3500,
   },
   {
@@ -495,8 +501,14 @@ let messages = [
     text: "Gerai, dabar toks labiau gyvenimiškas klausimas. Mano draugas pažadėjo padėti, bet pažado neištesėjo ir nuvylė.",
     time: 1500,
   },
+  {
+    who: "Žmogus",
+    type: "text",
+    text: "Taigi, kokia roboto nuomonė apie susiklosčiusią padėtį?",
+    time: 3500,
+  },
 
-  createQuiz("Taigi, kokia roboto nuomonė apie susiklosčiusią padėtį? Štai keli variantai:?"
+  createQuiz("Štai keli variantai:"
   , ['<div><input type="radio" name="q3" id="opt8"><label for="opt8">Jis nebėra mano draugas!</label></div>',
       '<div><input type="radio" name="q3" id="opt9"><label for="opt9">Aš negaliu juo pasitikėti, nuvylė vieną kartą – nuvils ir dar kartą.</label></div>',
       '<div><input type="radio" name="q3" id="opt10"><label for="opt10">Turiu išsiaiškinti, kas atsitiko ir kodėl jis negalėjo tesėti pažado.</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas, turiu išsiaiškinti, kas atsitiko ir kodėl jis negalėjo tesėti pažado.", "opt10"),
@@ -576,7 +588,7 @@ let messages = [
   {
     who: "Žmogus",
     type: "text",
-    text: "Visiškai teisingai.",
+    text: "Gerai.",
     time: 3500,
   },
   {
@@ -635,14 +647,14 @@ let messages = [
     time: 1500,
   },
   {
-    who: "",
-    type: "Žmogus",
+    who: "Žmogus",
+    type: "text",
     text: "Dar vienas klausimas: ",
     time: 3500,
   },
   {
-    who: "",
-    type: "Žmogus",
+    who: "Žmogus",
+    type: "text",
     text: "Penkiomis staklėmis per penkias minutes pagaminamos penkios detalės.",
     time: 3500,
   },
@@ -666,6 +678,12 @@ let messages = [
     time: 1500,
   },
   {
+    who: "Minia",
+    type: "text",
+    text: "Žmonės džiūgavo ir plojo!",
+    time: 1500,
+  },
+  {
     who: "Tėtis",
     type: "text",
     text: "Benai tu taip norėjai, užduoti klausimą, šauk kokį nors užduotį iš mokyklos, Tavo šansas!",
@@ -686,7 +704,7 @@ let messages = [
   {
     who: "Benas",
     type: "text",
-    text: "Tvenkinyje auga vandens lelijos. Jie dauginasi gana greitai, kasdien padvigubina pasiskirstymo plotą. Po 48 dienų tvenkinys bus visiškai padengtas vandens lelijomis.",
+    text: "Tvenkinyje auga vandens lelijos. Jos dauginasi gana greitai, kasdien padvigubina pasiskirstymo plotą. Po 48 dienų tvenkinys bus visiškai padengtas vandens lelijomis.",
     time: 3500,
   },
 
@@ -719,6 +737,12 @@ let messages = [
     type: "text",
     text: "Na ką, mano pasirodymas jau į pabaigą, tikiuosi, kad buvo įdomu. Klausimai buvo iš tiesų nelengvi, kitais metais reikės pasiruošti dar geriau. Taigi iki kito karto, draugai!",
     time: 1500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Kitas pasakojimas kitą dieną, sėkmės!",
+    time: 3500,
   },
 ];
 
