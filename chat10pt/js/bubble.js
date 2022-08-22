@@ -185,7 +185,7 @@ let messages = [
   {
     who: "Tėtis",
     type: "text",
-    text: "Perveža prekes. Čia labai menkai išvystytas regioninio kelio infrastruktūra, o logistika labai priklauso nuo krovininio transporto judėjimo pagrindiniais greitkeliais.",
+    text: "Perveža prekes. Čia labai menkai išvystyta regioninio kelio infrastruktūra, o logistika labai priklauso nuo krovininio transporto judėjimo pagrindiniais greitkeliais.",
     time: 1500,
   },
   {
@@ -201,7 +201,7 @@ let messages = [
     time: 1500,
   },
   {
-    who: "",
+    who: "Tėtis",
     type: "text",
     text: "Tai sūnau yra materialinių medžiagų srauto valdymas.",
     time: 1500,
