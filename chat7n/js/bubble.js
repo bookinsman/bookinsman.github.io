@@ -267,10 +267,27 @@ let messages = [
     time: 1500,
   },
 
-  createQuiz("Tai Tau liko..."
+  createQuiz("Man liko..."
   , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">51 minutė</label></div>',
       '<div><input type="radio" name="q1" id="opt2"><label for="opt2">34 minutės</label></div>',
-      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">17 minučių</label></div>'], "teisingai", "pro šalį", "opt2"),
+      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">17 minučių</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas,34 minutės", "opt2"),
+      {
+        who: "",
+        type: "text",
+        text: "...",
+        time: 3500,
+      },  {
+        who: "",
+        type: "text",
+        text: "...",
+        time: 3500,
+      },
+  {
+  who: "Operatorius",
+  type: "text",
+  text: "34 minutės",
+  time: 3500,
+  },    
   {
     who: "",
     type: "text",
@@ -392,11 +409,28 @@ let messages = [
   },
 
   createQuiz("Būtinas kodas:"
-  , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">Kodas - A</label></div>',
-      '<div><input type="radio" name="q1" id="opt2"><label for="opt2">Kodas - B</label></div>',
-      '<div><input type="radio" name="q1" id="opt2"><label for="opt2">Kodas - C</label></div>',
-      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Kodas - D</label></div>'], "teisingai", "pro šalį", "opt1"),
-
+  , ['<div><input type="radio" name="q2" id="opt4"><label for="opt4">Kodas - A</label></div>',
+      '<div><input type="radio" name="q2" id="opt5"><label for="opt5">Kodas - B</label></div>',
+      '<div><input type="radio" name="q2" id="opt6"><label for="opt6">Kodas - C</label></div>',
+      '<div><input type="radio" name="q2" id="opt7"><label for="opt7">Kodas - D</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas - kodas - A", "opt4"),
+      {
+        who: "",
+        type: "text",
+        text: "...",
+        time: 3500,
+      },
+      {
+        who: "",
+        type: "text",
+        text: "...",
+        time: 3500,
+      },
+      {
+        who: "",
+        type: "text",
+        text: "...",
+        time: 3500,
+      },
   {
     who: "",
     type: "text",
@@ -454,19 +488,37 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Čia trūksta energijos skysčio, kad įsijungtų GPS. Pamenu, kad į bakelį reikia įpilti lygiai vieną litą, o matavimo skalė sulaužyta. ",
+    text: "Čia trūksta energijos skysčio, kad įsijungtų GPS. Pamenu, kad į bakelį reikia įpilti lygiai 4 litrus, o matavimo skalė sulaužyta. ",
     time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "Lukas apieškojo laivą ir surado du skirtingus indelius. Vienas trijų litrų ir penkių litrų. Ar jam pavyktų įpilti vieną litrą turint 20 litrų skysčio?",
+    text: "Lukas apieškojo laivą ir surado du skirtingus indelius. Vienas trijų litrų ir penkių litrų.",
     time: 3500,
   },
 
-  createQuiz("Būtinas kodas:"
-  , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">Taip</label></div>',
-      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Ne</label></div>'], "teisingai", "pro šalį", "opt1"),
+  createQuiz("Ar jam pavyktų įpilti vieną litrą turint 20 litrų skysčio?"
+  , ['<div><input type="radio" name="q3" id="opt8"><label for="opt8">Taip</label></div>',
+      '<div><input type="radio" name="q3" id="opt9"><label for="opt9">Ne</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas, taip. Pirmiausia užpildykite 5 litrų bakelį ir iš jo supilkite 3 litrus į 3 litrų bakelį. Dabar 5 litrų bakelis turite 2 litrus. Ištuštinkite 3 litrų bakelį. Supilkite 2 litrus į tuščią 3 litrų bakelį. Tada pripildykite 5 litrų bakelį ir iš jo supilkite 1 litrą į 3 litrų bakelį, kad užpildytumėte šią talpą. Galiausiai, didesniame bakelyje dabar yra lygiai 4 litrai!", "opt8"),
+  {
+    who: "",
+    type: "...",
+    text: "Tuojau",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "...",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "...",
+    time: 3500,
+  },
   {
     who: "",
     type: "text",
@@ -602,19 +654,55 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "O ką turiu daryti toliau? Man liko 2 minutės deguonies. Prašau, padėkite.",
+    text: "1. Degtukų dėžutė. 2. Maisto papildai. 3. 20 m. nailono laidas 4. Šilkinio kupolo parašiutas. 5. Nešiojamas saulės šildytuvas. 6. Dėžutė pieno miltelių. 7. Deguonies balionai 2 vnt. po 50 kg. 8. Dangaus žvaigždžių žemėlapis. 9. Savaime prisipučianti gelbėjimo valtis. 10. Magnetinis kompasas. 11. 25 litrai vandens. 12. Signalinės raketos. 13. Pirmosios pagalbos rinkinys. 14. Saulės baterijomis varomas siųstuvas-imtuvas.",
     time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "O ką turiu daryti toliau? Man liko 2 minutės deguonies. Prašau, padėkite.",
+    text: "Nepamiršk svarbiausio, kad šioje situacijoje svarbūs yra tie daiktai, kurie reikalingi gyvybei palaikyti. Tai deguonies bakai ir vanduo.",
     time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "O ką turiu daryti toliau? Man liko 2 minutės deguonies. Prašau, padėkite.",
+    text: "Kiti svarbūs dalykai yra navigacijos priemonės. Mėnulyje važiuojant tamsiąja puse gali praversti tik žvaigždžių diagrama, nes tamsoje orientuotis sudėtinga, o šviesiojoje mėnulio pusėje – radijo švyturiui sekti – saulės energija varomas siųstuvas-imtuvas. Kelionė turėtų trukti mažiausiai 5 dienas.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Kadangi kelionė ilga, tam bus reikalingos jėgos, energija. Kitas dalykas, apie kurį turime pagalvoti, būtų maistas: maisto koncentratai ir pieno milteliai.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Po kelių minučių užduotis buvo atlikta.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Tuoj pažiūrėsiu ar teisingai.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "1. Deguonies balionai 2 vnt. 50 kg. Būtinas kvėpavimui. 2. 25 litrai vandens. Troškuliui malšinti. 3. Mėnulio dangaus žvaigždžių žemėlapis. Reikalingas orientuotis tamsiojoje mėnulio pusėje. 4. Saulės energija varomas siųstuvas-imtuvas. Būtinas norint orientuotis šviesiojoje mėnulio pusėje. 5. Maisto papildai. Būtinas norint pasiekti tikslą. 6. 20 m. nailono laidas. Juo gali gabenti krovinius. 7. Pirmosios pagalbos vaistinėlė. Reikalinga padėti susižeidus, stimuliuoti širdies veiklą ir kt. 8. Šilkinio kupolo parašiutas. Neįmanoma naudoti pagal paskirtį, tačiau stropus galime surišti ir naudoti vietoj virvės. Pavyzdžiui, jeigu reikėtų kur nors nusileisti. 9. Savaime prisipučianti gelbėjimo valtis. Mėnulyje juo galima gabenti krovinius ar sužeistą žmogų. 10. Dėžutė pieno miltelių. Jis gali tarnauti kaip maisto papildas, tačiau tai nėra pagrindinis maistas. 11. Nešiojamas saulės šildytuvas.  Kelionei tai nėra pats svarbiausias daiktas. Nes tamsiojoje mėnulio pusėje šis prietaisas neveikia, o šviesiojoje pusėje temperatūra pakyla iki 200°C.  12. Signalinės raketos. Mėnulio sąlygomis jie yra nenaudingi, nes be oro raketa nepakils. 13. Magnetinis kompasas. Mėnulis neturi magnetinio lauko. Kompasas neveiks. 14. Dėžutė degtukų. Be oro jie nedegs.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Taip tu atlikai viską teisingai, o dabar einame ledų!!!",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Kitas pasakojimas kitą dieną, sėkmės!",
     time: 3500,
   },
 
