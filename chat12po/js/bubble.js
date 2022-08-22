@@ -454,12 +454,6 @@ let messages = [
   },
   {
     who: "",
-    type: "text",
-    text: "...",
-    time: 1500,
-  },
-  {
-    who: "",
     type: "Žmogus",
     text: "Visiškai teisingai.",
     time: 3500,
@@ -686,7 +680,7 @@ let messages = [
   {
     who: "Tėtis",
     type: "text",
-    text: "Benai tu taip norėjai, užduoti klausimą, šauk kokį nors užduotį iš mokyklos, Tavo šansas!",
+    text: "Benai tu taip norėjai, užduoti klausimą, šauk kokią nors užduotį iš mokyklos, Tavo šansas!",
     time: 1500,
   },
   {
