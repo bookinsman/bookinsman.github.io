@@ -255,7 +255,7 @@ let messages = [
     time: 3500,
   },
   {
-    who: "",
+    who: "Liza",
     type: "text",
     text: "Įdomiai pasakyta.",
     time: 1500,
@@ -286,8 +286,8 @@ let messages = [
   },
   {
     who: "",
-    type: "O gal manyje liko tikėjimas, kad gyvenimas sudėliotas pagal tam tikrą planą. Ir man tereikia jį suprasti, o tuomet galėsiu gyventi harmonijoje ir nebekeisti krypties.",
-    text: "",
+    type: "text",
+    text: "O gal manyje liko tikėjimas, kad gyvenimas sudėliotas pagal tam tikrą planą. Ir man tereikia jį suprasti, o tuomet galėsiu gyventi harmonijoje ir nebekeisti krypties.",
     time: 1500,
   },
   {
