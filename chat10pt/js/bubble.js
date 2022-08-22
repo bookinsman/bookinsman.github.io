@@ -495,7 +495,7 @@ let messages = [
     time: 3500,
   },
   {
-    who: "Žurnalistas",
+    who: "",
     type: "text",
     text: "Kitas pasakojimas kitą dieną, sėkmės!",
     time: 3500,
