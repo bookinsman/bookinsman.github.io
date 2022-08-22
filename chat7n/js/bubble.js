@@ -538,6 +538,12 @@ let messages = [
     time: 3500,
   },
   {
+    who: "",
+    type: "text",
+    text: "O ką turiu daryti toliau? Man liko 2 minutės deguonies. Prašau, padėkite. ",
+    time: 3500,
+  },
+  {
     who: "Jurgenas",
     type: "text",
     text: "Tau tereikia išgirst balsą.",
@@ -686,11 +692,89 @@ let messages = [
     type: "text",
     text: "Tuoj pažiūrėsiu ar teisingai.",
     time: 3500,
+  },,
+  {
+    who: "",
+    type: "text",
+    text: "1. Deguonies balionai 2 vnt. 50 kg. Būtinas kvėpavimui.",
+    time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "1. Deguonies balionai 2 vnt. 50 kg. Būtinas kvėpavimui. 2. 25 litrai vandens. Troškuliui malšinti. 3. Mėnulio dangaus žvaigždžių žemėlapis. Reikalingas orientuotis tamsiojoje mėnulio pusėje. 4. Saulės energija varomas siųstuvas-imtuvas. Būtinas norint orientuotis šviesiojoje mėnulio pusėje. 5. Maisto papildai. Būtinas norint pasiekti tikslą. 6. 20 m. nailono laidas. Juo gali gabenti krovinius. 7. Pirmosios pagalbos vaistinėlė. Reikalinga padėti susižeidus, stimuliuoti širdies veiklą ir kt. 8. Šilkinio kupolo parašiutas. Neįmanoma naudoti pagal paskirtį, tačiau stropus galime surišti ir naudoti vietoj virvės. Pavyzdžiui, jeigu reikėtų kur nors nusileisti. 9. Savaime prisipučianti gelbėjimo valtis. Mėnulyje juo galima gabenti krovinius ar sužeistą žmogų. 10. Dėžutė pieno miltelių. Jis gali tarnauti kaip maisto papildas, tačiau tai nėra pagrindinis maistas. 11. Nešiojamas saulės šildytuvas.  Kelionei tai nėra pats svarbiausias daiktas. Nes tamsiojoje mėnulio pusėje šis prietaisas neveikia, o šviesiojoje pusėje temperatūra pakyla iki 200°C.  12. Signalinės raketos. Mėnulio sąlygomis jie yra nenaudingi, nes be oro raketa nepakils. 13. Magnetinis kompasas. Mėnulis neturi magnetinio lauko. Kompasas neveiks. 14. Dėžutė degtukų. Be oro jie nedegs.",
+    text: "2. 25 litrai vandens. Troškuliui malšinti.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "3. Mėnulio dangaus žvaigždžių žemėlapis. Reikalingas orientuotis tamsiojoje mėnulio pusėje.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "4. Saulės energija varomas siųstuvas-imtuvas. Būtinas norint orientuotis šviesiojoje mėnulio pusėje.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "5. Maisto papildai. Būtinas norint pasiekti tikslą.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "6. 20 m. nailono laidas. Juo gali gabenti krovinius.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "7. Pirmosios pagalbos vaistinėlė. Reikalinga padėti susižeidus, stimuliuoti širdies veiklą ir kt.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "8. Šilkinio kupolo parašiutas. Neįmanoma naudoti pagal paskirtį, tačiau stropus galime surišti ir naudoti vietoj virvės. Pavyzdžiui, jeigu reikėtų kur nors nusileisti.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "9. Savaime prisipučianti gelbėjimo valtis. Mėnulyje juo galima gabenti krovinius ar sužeistą žmogų. ",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "10. Dėžutė pieno miltelių. Jis gali tarnauti kaip maisto papildas, tačiau tai nėra pagrindinis maistas.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "11. Nešiojamas saulės šildytuvas.  Kelionei tai nėra pats svarbiausias daiktas. Nes tamsiojoje mėnulio pusėje šis prietaisas neveikia, o šviesiojoje pusėje temperatūra pakyla iki 200°C.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "12. Signalinės raketos. Mėnulio sąlygomis jie yra nenaudingi, nes be oro raketa nepakils.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "13. Magnetinis kompasas. Mėnulis neturi magnetinio lauko. Kompasas neveiks.",
+    time: 3500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "14. Dėžutė degtukų. Be oro jie nedegs",
     time: 3500,
   },
   {
@@ -705,8 +789,6 @@ let messages = [
     text: "Kitas pasakojimas kitą dieną, sėkmės!",
     time: 3500,
   },
-
-  
 ];
 
 let totalMessages = messages.length;
