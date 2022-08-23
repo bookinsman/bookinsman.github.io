@@ -173,7 +173,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Aš tikrai žinau, kad ta vieta turi būti kažkur netoli.?",
+    text: "Aš tikrai žinau, kad ta vieta turi būti kažkur netoli...",
     time: 0,
   },
   {
@@ -377,7 +377,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Taigi, yra dvi dėžutės obuolių, kiekvienoje po 10 obuoliukų. Iš pirmos dėžutės kažkas paėmė kelis obuolius, o iš antrosios – tiek, kiek liko pirmoje. Kiek obuolių liko abiejose dėžutėse?",
+    text: "Taigi, yra dvi dėžutės obuolių, kiekvienoje po 10 obuoliukų. Iš pirmos dėžutės kažkas paėmė kelis obuolius, o iš antrosios – tiek, kiek liko pirmoje.",
     time: 1500,
   },
 
@@ -413,13 +413,13 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Matau mėgstate užduotis su skaičiais, kita užduotis bus šiek tiek sunkesnė",
+    text: "Matau mėgstate užduotis su skaičiais, kita užduotis bus šiek tiek sunkesnė.",
     time: 3500,
   },
   {
     who: "",
     type: "text",
-    text: "Bet pagalvokite ir tikrai ją išspręsite",
+    text: "Pagalvokite ir tikrai ją išspręsite.",
     time: 1500,
   },
   {
