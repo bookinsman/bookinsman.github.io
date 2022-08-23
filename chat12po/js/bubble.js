@@ -453,73 +453,6 @@ let messages = [
     time: 1500,
   },
   {
-    who: "",
-    type: "Žmogus",
-    text: "Visiškai teisingai.",
-    time: 3500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Noriu robotui užduoti sunkesnį klausimą. Įsivaizduokime, kad metama moneta 5 kartus iš eilės.",
-    time: 1500,
-  },
-
-  createQuiz("Kuris variantas, roboto nuomone, yra labiau tikėtinas?"
-  , ['<div><input type="radio" name="q2" id="opt4"><label for="opt4">Skaičius ir simbolis kris keisdamas puses, pradedant nuo skaičiaus.</label></div>',
-      '<div><input type="radio" name="q2" id="opt5"><label for="opt5">Skaičius atsivers visus 5 kartus</label></div>',
-      '<div><input type="radio" name="q2" id="opt6"><label for="opt6">Simbolis atsivers visus 5 kartus</label></div>',
-      '<div><input type="radio" name="q2" id="opt7"><label for="opt7">Visi variantai vienodai tikėtini.</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas, visi variantai vienodai tikėtini.", "opt7"),
-
-  {
-    who: "",
-    type: "text",
-    text: "...",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "...",
-    time: 1500,
-  },
-  {
-    who: "Žmogus",
-    type: "text",
-    text: "Matau puikiai tvarkosi.",
-    time: 3500,
-  },
-  {
-    who: "Žmogus",
-    type: "text",
-    text: "Gerai, dabar toks labiau gyvenimiškas klausimas. Mano draugas pažadėjo padėti, bet pažado neištesėjo ir nuvylė.",
-    time: 1500,
-  },
-  {
-    who: "Žmogus",
-    type: "text",
-    text: "Taigi, kokia roboto nuomonė apie susiklosčiusią padėtį?",
-    time: 3500,
-  },
-
-  createQuiz("Štai keli variantai:"
-  , ['<div><input type="radio" name="q3" id="opt8"><label for="opt8">Jis nebėra mano draugas!</label></div>',
-      '<div><input type="radio" name="q3" id="opt9"><label for="opt9">Aš negaliu juo pasitikėti, nuvylė vieną kartą – nuvils ir dar kartą.</label></div>',
-      '<div><input type="radio" name="q3" id="opt10"><label for="opt10">Turiu išsiaiškinti, kas atsitiko ir kodėl jis negalėjo tesėti pažado.</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas, turiu išsiaiškinti, kas atsitiko ir kodėl jis negalėjo tesėti pažado.", "opt10"),
-
-  {
-    who: "",
-    type: "text",
-    text: "...",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "...",
-    time: 3500,
-  },
-  {
     who: "Žmogus",
     type: "text",
     text: "Įdomus atsakymas.",
@@ -632,43 +565,6 @@ let messages = [
     who: "Moteris",
     type: "text",
     text: "Man atrodo šitas robotas tiesiog neįveikiamas...",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Visi tyliai klausėsi ir tik lingavo galvomis",
-    time: 1500,
-  },
-  {
-    who: "Žmogus",
-    type: "text",
-    text: "Dar vienas klausimas: ",
-    time: 3500,
-  },
-  {
-    who: "Žmogus",
-    type: "text",
-    text: "Penkiomis staklėmis per penkias minutes pagaminamos penkios detalės.",
-    time: 3500,
-  },
-
-  createQuiz("Per kiek minučių 100 staklių pagamintų 100 detalių?"
-  , ['<div><input type="radio" name="q6" id="opt18"><label for="opt18">Ar tai bus - 100 min</label></div>',
-      '<div><input type="radio" name="q6" id="opt19"><label for="opt19">Ar tai bus - 5 min</label></div>',
-      '<div><input type="radio" name="q6" id="opt20"><label for="opt20">Ar tai bus - 25 min</label></div>',
-      '<div><input type="radio" name="q6" id="opt21"><label for="opt21">Ar tai bus - 500 min</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas: pagaminti 100 detalių truktų 5 minutes. Kadangi penkios staklės per penkias minutes pagamina penkias detales, tai vienos staklės vieną detalę taip pat gamina penkias minutes, o jei staklių yra 100 ir visos gamina po detalę, 100 detalių bus pagaminta po penkių minučių. ", "opt19"),
-
-  {
-    who: "",
-    type: "text",
-    text: "...",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "...",
     time: 1500,
   },
   {
