@@ -577,7 +577,7 @@ let messages = [
   , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">Ar tai bus - 200 tūkstančių eurų</label></div>',
       '<div><input type="radio" name="q2" id="opt2"><label for="opt2">Ar tai bus - 250 tūkstančių eurų</label></div>',
       '<div><input type="radio" name="q3" id="opt3"><label for="opt3">Ar tai bus - 300 tūkstančių eurų</div>',
-      '<div><input type="radio" name="q4" id="opt4"><label for="opt4">Ar tai bus - 400 tūkstančių eurų</label></div>'], "Teisingą atsakymą reikia rasti savarankiškai. ", "Teisingą atsakymą reikia rasti savarankiškai.", "opt3"),
+      '<div><input type="radio" name="q4" id="opt4"><label for="opt4">Ar tai bus - 400 tūkstančių eurų</label></div>'], "Teisingai ", "Pro šalį, teisingas atsakymas: 300 tūkstančių eurų", "opt3"),
 
 
   {
@@ -595,19 +595,19 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Atsakymas 400 tūkstančių eurų?",
+    text: "Atsakymas 300 tūkstančių eurų?",
     time: 3500,
   },
   {
     who: "Tėtis",
     type: "text",
-    text: "Neteisingai, matau reikės, kad rastum atsakymą savarankiškai, jis yra knygoje",
+    text: "Taip!",
     time: 1500,
   },
   {
     who: "Tėtis",
     type: "text",
-    text: "Paskutinis kurį tikrai atsakysi.",
+    text: "Paskutinis, kurį tikrai atsakysi.",
     time: 1500,
   },
   createQuiz("Amerikiečių psichologas ir ekonomistas, sukūręs poreikių klasifikavimo pagrindą:"
