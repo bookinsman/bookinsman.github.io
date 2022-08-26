@@ -263,7 +263,7 @@ let messages = [
   {
     who: "Tėtis",
     type: "text",
-    text: "Kostiumo kainai nustatyti padeda skirtingų siuvėjų vidutinis darbo laiko. Anksčiau kostiumai buvo siuvami rankomis. Tai užtrukdavo ilgiau. Siuvimo mašinos labai paspartino ir palengvino darbą. Padidėjo darbo našumas, sumažėjo kostiumų kaina.",
+    text: "Kostiumo kainai nustatyti padeda skirtingų siuvėjų vidutinis darbo laikas. Anksčiau kostiumai buvo siuvami rankomis. Tai užtrukdavo ilgiau. Siuvimo mašinos labai paspartino ir palengvino darbą. Padidėjo darbo našumas, sumažėjo kostiumų kaina.",
     time: 3500,
   },
   {
@@ -297,7 +297,7 @@ let messages = [
     time: 1500,
   },
   {
-    who: "Tėtis",
+    who: "",
     type: "text",
     text: "Manau, išlaikyti šeimą nėra lengva. Negalima skirti visų santaupų tik buto įsigijimui. Reikalingas automobilis, maistas, kitos prekės. Vadinasi, reikia aukotis?",
     time: 1500,
@@ -449,13 +449,19 @@ let messages = [
   {
     who: "Tėtis",
     type: "text",
-    text: "Ir ne tik tai.  Pirmiausia, žmogus turi būtų sotus ir apsirengęs, kad būtų šilta ir patogu. ",
+    text: "Ir ne tik tai.  Pirmiausia, žmogus turi būti sotus ir apsirengęs, kad būtų šilta ir patogu. ",
     time: 3500,
   },
   {
     who: "",
     type: "text",
     text: "Sutinku.",
+    time: 1500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Po kelių minučių...",
     time: 1500,
   },
   {
@@ -479,7 +485,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Kodėl? Aš myliu savo šeimą!",
+    text: "Aš myliu savo šeimą!",
     time: 1500,
   },
   {
@@ -493,12 +499,6 @@ let messages = [
     type: "text",
     text: "Mums reikia suskaičiuot, kokį gauname atlyginimą, teisingai?",
     time: 1500,
-  },
-  {
-    who: "Tėtis",
-    type: "text",
-    text: "Nes tu peršokai svarbiausius poreikius!",
-    time: 3500,
   },
   {
     who: "",
