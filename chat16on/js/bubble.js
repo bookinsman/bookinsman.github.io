@@ -378,7 +378,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Darbuotojai neturės benrų verslo tikslų – nuo ​​metinio plano įgyvendinimo iki strateginio lyderiavimo rinkoje. Taikant šį metodą, prarandama bendrosios sąveikos sinergija, o tai visada pavojinga.",
+    text: "Darbuotojai neturės bendrų verslo tikslų – nuo ​​metinio plano įgyvendinimo iki strateginio lyderiavimo rinkoje. Taikant šį metodą, prarandama bendrosios sąveikos sinergija, o tai visada pavojinga.",
     time: 1500,
   },
   {
