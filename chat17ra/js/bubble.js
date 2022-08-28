@@ -278,7 +278,7 @@ let messages = [
   {
     who: "Studentai",
     type: "text",
-    text: "Pamelos Travers knyga „Mary Poppins on Cherry Tree Street“ buvo anotacija, nes šis tekstas turėtų sudominti ir pritraukti skaitytoją, jį sudominti.",
+    text: "Pamelos Travers knyga „Mary Poppins on Cherry Tree Street“ buvo anotacija, nes šis tekstas turėtų sudominti ir pritraukti skaitytoją.",
     time: 1500,
   },
   {
@@ -390,12 +390,6 @@ let messages = [
   {
     who: "Studentai",
     type: "text",
-    text: "",
-    time: 1500,
-  },
-  {
-    who: "Studentai",
-    type: "text",
     text: "Adresas.",
     time: 1500,
   },
@@ -468,13 +462,13 @@ let messages = [
   {
     who: "Studentai",
     type: "text",
-    text: "„Neįmanoma be praktikos“. Visų pirma, tai paslaptinga. Antra, tai atitinka turinį, nes sanitaras Kuriatinas nemoka šalinti dantų, manydamas, kad „operacija yra niekas.“ Dėl Kuriatino neatsargumo nukentėjo sekstonas Vonmiglasovas, kuriam sanitaras sulaužė dantį ir paliko šaknis dantenoje.",
+    text: "„Neįmanoma be praktikos“. Visų pirma, tai paslaptinga. Antra, tai atitinka turinį, nes sanitaras Kuriatinas nemoka šalinti dantų, manydamas, kad „operacija yra niekas.“ Dėl Kuriatino neatsargumo nukentėjo Sekstonas Vonmiglasovas, kuriam sanitaras sulaužė dantį ir paliko šaknis dantenoje.",
     time: 1500,
   },
   {
     who: "Studentai",
     type: "text",
-    text: "Pagalvokite, kokią istoriją galite sugalvoti reklamuodami šį darbą.",
+    text: "Pagalvokite, kokią antraštę galite sugalvoti reklamuodami šį darbą.",
     time: 1500,
   },
   {
@@ -496,7 +490,7 @@ let messages = [
     time: 1500,
   },
   {
-    who: "",
+    who: "Studentai",
     type: "text",
     text: "Pasirinkite instrumentą.",
     time: 1500,
@@ -565,7 +559,7 @@ let messages = [
   {
     who: "Studentai",
     type: "text",
-    text: "Ar domitės, dėl ko skauda dantis, ir į kokius specialistus reikėtų kreiptis? Ar nerimaujate, kaip atskirti profesionalą? Norite sužinoti, ar diakonui buvo pašalintas dantis? Prie ko veda nežinojimas, kai „be praktikos neįmanoma“? Perskaitykite A. P. Čechovo istoriją „Chirurgija“, kurią galite pasiimti mokyklos bibliotekoje",
+    text: "Ar domitės, dėl ko skauda dantis, ir į kokius specialistus reikėtų kreiptis? Ar nerimaujate, kaip atskirti profesionalą? Norite sužinoti, ar Diakonui buvo pašalintas dantis? Prie ko veda nežinojimas, kai „be praktikos neįmanoma“? Perskaitykite A. P. Čechovo istoriją „Chirurgija“, kurią galite pasiimti mokyklos bibliotekoje: adresu liejyklos 15, priešais raudoną namą.",
     time: 1500,
   },
   {
@@ -630,12 +624,17 @@ let messages = [
     time: 1500,
   },
   {
-    who: "Studentai",
+    who: "",
     type: "text",
     text: "Vaikinai, ar turite papildymų, komentarų?",
     time: 1500,
   },
-
+  {
+    who: "",
+    type: "text",
+    text: "Yra tenkinami pagrindiniai reikalavimai reklamai.",
+    time: 1500,
+  },
   {
     who: "",
     type: "text",
