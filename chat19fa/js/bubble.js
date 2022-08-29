@@ -171,7 +171,7 @@ function createQuiz(
 
 let messages = [
   {
-    who: "",
+    who: "Haris",
     type: "text",
     text: "Po dešimties minučių apeisime visą labirintą.",
     time: 1500,
@@ -183,7 +183,7 @@ let messages = [
     time: 1500,
   },
   {
-    who: "",
+    who: "Haris",
     type: "text",
     text: "Sekite paskui mane, jei pasiklydote, aš čia viską žinau.",
     time: 1500,
@@ -197,7 +197,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Iš viso buvo apie dvidešimt žmonių, įskaitant moterį su vaiku, kuri visą rytą buvo labirinte ir dabar įsikibo į Harriso ranką, kad netyčia jo nepamestų. Hariso pažįstamas pastebėjo, kad labirintas atrodo labai didelis.",
+    text: "Iš viso buvo apie dvidešimt žmonių, įskaitant moterį su vaiku, kuri visą rytą buvo labirinte ir dabar įsikibo į Hariso ranką, kad netyčia jo nepamestų. Hariso pažįstamas pastebėjo, kad labirintas atrodo labai didelis.",
     time: 1500,
   },
   {
@@ -215,11 +215,11 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Haris vis dar buvo linksmas, kol aptiko ant žemės gulintį meduolių gabalėlį. Vienas iš grupės prisiekė matęs tą patį gabalėlį prieš septynias minutes.",
+    text: "Haris vis dar buvo linksmas, kol aptiko ant žemės gulintį meduolio gabalėlį. Vienas iš grupės prisiekė matęs tą patį gabalėlį prieš septynias minutes.",
     time: 1500,
   },
   {
-    who: "",
+    who: "Haris",
     type: "text",
     text: "Negali to būti!",
     time: 1500,
@@ -297,13 +297,13 @@ let messages = [
     time: 1500,
   },
   {
-    who: "",
+    who: "Lektorius",
     type: "text",
     text: "Ar tinka?",
     time: 1500,
   },
   {
-    who: "Lektorius",
+    who: "Vaikas",
     type: "text",
     text: "Taip, žinoma!",
     time: 1500,
@@ -335,7 +335,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Aiškus ir ryškus mąstymas vyksta ne tik vaizdiniuose, bet ir vadinamuosiuose verbaliniuose vaizduose. Net miegodami ar galvodami žmonės dažnai judina lūpas. Taigi artikuliuota ne tik žmogaus kalba, bet ir mintis.v",
+    text: "Aiškus ir ryškus mąstymas vyksta ne tik vaizdiniuose, bet ir vadinamuosiuose verbaliniuose vaizduose. Net miegodami ar galvodami žmonės dažnai judina lūpas. Taigi artikuliuota ne tik žmogaus kalba, bet ir mintis.",
     time: 1500,
   },
   {
@@ -491,7 +491,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Nemėgink įsiminti gramatikos taisyklių, pirmiausia supraskite principus, kuriais remiantis jos sukurtos.",
+    text: "Nemėgink įsiminti gramatikos taisyklių, pirmiausia suprask principus, kuriais remiantis jos sukurtos.",
     time: 1500,
   },
   {
@@ -527,7 +527,7 @@ let messages = [
 
   {
     who: "",
-    text: "https://lh3.googleusercontent.com/KQ-OiDmgd8DTUaxLwNuRcoLsAlToqq1CAEb96uRUIqR3Pt5foQ_CFNvJdrVhjUmKqDBP3UKY6KH2O9WjH02_DSqethEwNJGNMMlr_11hJo5KctLgLGhgUUVnEy_-Og2ma5zs9MwVrw=w2400",
+    text: "https://lh3.googleusercontent.com/BKkhLxASPqellQ-HUnSelLxNIx72I4RTFhVHXpBhGJKwQYpbsAQemBQ-76h-e3bwK27Vxc-T6VMj2zEXPjFk1a1ACjvnwVyKiCUI2enJbncWKEj3xEQHm5o6t8-Gpxb9TFiPrw0_fQ=w2400",
     time: 1500,
   },
 
@@ -594,6 +594,12 @@ let messages = [
     who: "",
     type: "text",
     text: "Pasiekei vieną – esi protingesnis.  Kad ir kaip sunku, žinok, jog pasirinkai tinkamą, vertą visų pastangų kelią. Esu įsitikinęs, kad niekada nenukrypsi nuo kelio. Laimingo kelio, gero vėjo, mano jaunasis drauge!",
+    time: 1500,
+  },
+  {
+    who: "",
+    type: "text",
+    text: "Mokymosi pabaiga.",
     time: 1500,
   },
 ];
