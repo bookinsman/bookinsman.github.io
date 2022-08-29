@@ -534,7 +534,7 @@ let messages = [
   createQuiz("Koks atsakymas būtų teisingas:"
   , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">Labirintas - A</label></div>',
       '<div><input type="radio" name="q1" id="opt2"><label for="opt2">Labirintas - B</label></div>',
-      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Labirintas - C</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas - Labirintas - B", "opt2"),
+      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Labirintas - C</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas - Labirintas - B.", "opt2"),
 
   {
     who: "",
@@ -551,13 +551,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Teisingai, iš labirinto pavyko išeiti!",
+    text: "Iš labirinto pavyko išeiti!",
     time: 1500,
   },
   {
