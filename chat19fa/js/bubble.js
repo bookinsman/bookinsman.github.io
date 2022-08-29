@@ -557,6 +557,12 @@ let messages = [
   {
     who: "",
     type: "text",
+    text: "Susitvarkei su viskuom!",
+    time: 1500,
+  },
+  {
+    who: "",
+    type: "text",
     text: "Štai ir baigėsi mūsų pokalbis, mano drauge. Šiandien rekomenduoju eiti savęs pažinimo keliu.",
     time: 1500,
   },
