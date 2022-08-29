@@ -527,14 +527,14 @@ let messages = [
 
   {
     who: "",
-    text: "https://lh3.googleusercontent.com/BKkhLxASPqellQ-HUnSelLxNIx72I4RTFhVHXpBhGJKwQYpbsAQemBQ-76h-e3bwK27Vxc-T6VMj2zEXPjFk1a1ACjvnwVyKiCUI2enJbncWKEj3xEQHm5o6t8-Gpxb9TFiPrw0_fQ=w2400",
+    text: "https://lh3.googleusercontent.com/oRS-0UueIoBji3-IQQI4WG6_Ug6GHh_j39GAtfE_vUGdq3qnyrJNTA9uF5uTIooj_MkpSORXt4YDQrhzHJ0biAFA_fgFdtUz0CyolQ8jeXHLjXL_c6kZqptqazkXpr5Dx1Z5IrzeQw=w2400",
     time: 1500,
   },
 
   createQuiz("Koks atsakymas būtų teisingas:"
   , ['<div><input type="radio" name="q1" id="opt1"><label for="opt1">Labirintas - A</label></div>',
       '<div><input type="radio" name="q1" id="opt2"><label for="opt2">Labirintas - B</label></div>',
-      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Labirintas - D</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas - Labirintas - B", "opt2"),
+      '<div><input type="radio" name="q1" id="opt3"><label for="opt3">Labirintas - C</label></div>'], "Teisingai", "Pro šalį, teisingas atsakymas - Labirintas - B", "opt2"),
 
   {
     who: "",
