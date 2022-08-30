@@ -292,13 +292,13 @@ body {
 .dropup-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: rgba(44, 54, 79, 0.925);
   min-width: 160px;
   bottom: 50px;
   z-index: 1;
   left: 10px;
   bottom: 62px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .dropup-content h3 {
   width: fit-content;
@@ -308,17 +308,22 @@ body {
 }
 .dropup-content > div {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .dropup-content a {
   color: black;
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
   display: block;
   width: 30px;
 }
 
 .dropup-content a:hover {
-  background-color: #ccc;
+  background-color: rgba(3, 3, 3, 0.653);
 }
 
 .dropup-content a img {
