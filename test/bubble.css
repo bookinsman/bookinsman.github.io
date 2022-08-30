@@ -232,8 +232,8 @@ body {
   text-align: center;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  box-shadow: 2px -9px 43px -3px rgba(3, 3, 3, 0.34);
-  -webkit-box-shadow: 2px -9px 43px -3px rgba(3, 3, 3, 0.34);
+  /* box-shadow: 2px -9px 43px -3px rgba(3, 3, 3, 0.34); */
+  /* -webkit-box-shadow: 2px -9px 43px -3px rgba(3, 3, 3, 0.34); */
   -moz-box-shadow: 2px -9px 43px -3px rgba(3, 3, 3, 0.34);
 }
 .foot .progress-div {
@@ -279,7 +279,7 @@ body {
 }
 .dropbtn {
   background-color: #3498db;
-  color: white;
+  color: #9d6464;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -293,11 +293,11 @@ body {
 .dropup-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: rgb(44 54 79 / 68%);
   min-width: 160px;
   bottom: 50px;
   z-index: 1;
-  left: 10px;
+  left: 2;
   bottom: 62px;
   border-radius: 20px;
 }
@@ -309,17 +309,22 @@ body {
 }
 .dropup-content > div {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .dropup-content a {
-  color: black;
-  padding: 12px;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 10px;
   text-decoration: none;
   display: block;
   width: 30px;
 }
 
 .dropup-content a:hover {
-  background-color: #ccc;
+  background-color: rgb(3 3 3 / 50%);
 }
 
 .dropup-content a img {
