@@ -9,10 +9,11 @@ html, body {
     margin: 0;
     padding: 0;
     display: flex;
-    color: #fff;
-    background-color: #e8ebee;
-    justify-content: center;
+    color: #fee9e9;
+    background-color: #fdf0ff;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 ::selection {
     background-color: #000000c2;
@@ -26,12 +27,12 @@ html, body {
     align-items: center;
     padding: 100px 50px;
     margin: 30px;
-    box-shadow: 13px 13px 20px #caced1, -13px -13px 20px #fff;
+    box-shadow: 13px 13px 20px #caced1, -13px -13px 20px #c0b0dc;
     border-radius: 15px;
 }
 #text {
     box-sizing: border-box;
-    background-color: #e8ebee;
+    background-color: #ece5ff;
     color: #000;
     border-radius: 15px;
     padding: 10px 15px;
@@ -47,7 +48,7 @@ html, body {
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 1.5;
-    box-shadow: inset 4px 4px 8px #caced1, inset -4px -4px 8px #fff;
+    box-shadow: inset 4px 4px 8px #725272, inset -4px -4px 8px #fbd2fb;
 }
 .brand{
     font-family: 'Lato', sans-serif;
@@ -89,7 +90,7 @@ html, body {
     outline: none;
     cursor: pointer;
     user-select: none;
-    box-shadow: 13px 13px 20px #caced1, -13px -13px 20px #fff;
+    box-shadow: 13px 13px 20px #d599e1, -13px -13px 20px #e0deeb87;
 }
 #copy:before {
     content: "
