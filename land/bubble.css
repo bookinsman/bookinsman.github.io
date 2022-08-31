@@ -9,10 +9,10 @@ html, body {
     margin: 0;
     padding: 0;
     display: flex;
-    color: #fee9e9;
-    background-color: #fdf0ff;
+    color: #fff5f5;
+    background-color: #f2eaf3;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 ::selection {
     background-color: #000000c2;
