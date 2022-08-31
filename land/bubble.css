@@ -11,9 +11,8 @@ html, body {
     display: flex;
     color: #fee9e9;
     background-color: #fdf0ff;
+    justify-content: space-evenly;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 ::selection {
     background-color: #000000c2;
