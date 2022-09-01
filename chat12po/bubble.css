@@ -340,3 +340,14 @@ body {
 .msg-container img {
   width: 215px;
 }
+*{
+  box-sizing: border-box;
+}
+.quiz.msg-container{
+  background-color: rgb(212 229 255 / 40%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgb(120 117 117 / 71%);
+  overflow: hidden;
+  font-size: 16px;
+  padding: 20px;
+}
