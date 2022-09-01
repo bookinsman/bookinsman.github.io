@@ -340,9 +340,7 @@ body {
 .msg-container img {
   width: 215px;
 }
-*{
-  box-sizing: border-box;
-}
+
 .quiz.msg-container{
   background-color: rgb(212 229 255 / 40%);
   border-radius: 10px;
