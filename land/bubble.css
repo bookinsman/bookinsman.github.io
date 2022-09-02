@@ -10,7 +10,7 @@ html, body {
     padding: 0;
     display: flex;
     color: #fff5f5;
-    background-color: #f2eaf3;
+    background-color: #e8eaf6;
     justify-content: space-evenly;
     flex-direction: column-reverse;
 }
@@ -47,7 +47,7 @@ html, body {
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 1.5;
-    box-shadow: inset 4px 4px 8px #725272, inset -4px -4px 8px #fbd2fb;
+    box-shadow: inset 4px 4px 8px #555272, inset -4px -4px 8px #c4cefcbd;
 }
 .brand{
     font-family: 'Lato', sans-serif;
@@ -73,7 +73,7 @@ html, body {
 #copy {
     position: relative;
     box-sizing: border-box;
-    background-color: #c930f1d1;;
+    background-color: #7221ffde;;
     color: #fff;
     width: 180px;
     min-height: 44px;
@@ -89,7 +89,7 @@ html, body {
     outline: none;
     cursor: pointer;
     user-select: none;
-    box-shadow: 13px 13px 20px #d599e1, -13px -13px 20px #e0deeb87;
+    box-shadow: 13px 13px 20px #b1aab7, -13px -13px 20px #e0deeb87;
 }
 #copy:before {
     content: "
