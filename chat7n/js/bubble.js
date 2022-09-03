@@ -237,6 +237,11 @@ let messages = [
     time: 3500,
   },
   {
+    who: "",
+    text: "https://lh3.googleusercontent.com/SuU0mbdKhYbpVzOXC6KIVWYQoswTJ4DBcXFEyNdARqyWATd6_4yEKMCEQqDdiK3Rm6y3r_7-I33rHjfdmunx2L2LPYf2bxRmkXub4GlDPj9n60d7pwEj0SCVWiAhAguODEMrm_y2wQ=w2400",
+    time: 1500,
+  },
+  {
     who: "Operatorius",
     type: "text",
     text: "Ar galėtumėte patikslinti savo vardą?",
@@ -466,6 +471,11 @@ let messages = [
     type: "text",
     text: "Matau raudonai geltonos spalvos sieną, kuri nuolatos keičiasi, šviečia labai ryškiai. Daugiau nieko, pone.",
     time: 3500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/vjKDKB8SagXqj9JLoLV6IjvL-Z5jgdSwJ_H5jFsN5lcCnso8OaUItiyBH9CIpyKqYrix47F70lwDw3hUudvL7RYCskBtvzBdZyQbj2VwxhrLrEqm8fVqtLnH_OZk3zz66HtEIDb0Qw=w2400",
+    time: 1500,
   },
   {
     who: "Jurgenas",
@@ -788,6 +798,11 @@ let messages = [
     type: "text",
     text: "Kitas pasakojimas kitą dieną, sėkmės!",
     time: 3500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/Bl3SsRpE-YPgd9--N3b68Mmb7z71DjYJ-cy_dr2Rg054hnocxKi7BwszLqsSG7iPfrSu38hv-fP9nMikme4aux695s_sKh5C8WvpGo5zTIP_nRprop_OYWg5ejBlsZwk1PTK7k923w=w2400",
+    time: 1500,
   },
 ];
 
