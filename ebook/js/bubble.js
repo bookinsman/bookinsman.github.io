@@ -249,6 +249,11 @@ let messages = [
     time: 1500,
   },
   {
+    who: "",
+    text: "https://lh3.googleusercontent.com/2Jv_uPgcXuddkgwJlNclb7O4BKErWDAL23VnjVTqDBAzIn1vYCc8rxTSrhmWziZXApOYxExgMnzkuiI-NLLW8fcGbxwhYvn3mS8OXDNBP8RfVG-LVncM53GBrZUWHx_gvEHLyjhU_w=w2400",
+    time: 1500,
+  },
+  {
     who: "Žmogus",
     type: "text",
     text: "Toks gražus ir prižiūrėtas. Keista, kad vaikštai vienas...",
@@ -367,6 +372,11 @@ let messages = [
     type: "text",
     text: "Katinų grupė pradėjo artintis. Netikėtai, be jokių aiškių priežasčių, vienas iš katinų gaujos tiesiog įkando Lorenui į kaklą. Situacija, kurioje atsidūrė Lorenas, darėsi labai įtempta. Jam įkando į uodegą ir staiga, prieš save pamatė, kaip katės skirstosi į skirtingas puses, nes įėjo daug stambesnis katinas. Šis prisiartino prie Loreno ir sustojo prieš jį.",
     time: 3500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/ApTFZjQgEt-gupqBNxLruZhiyjB9w5KLaMB54wvAceKfzyiCCXWxwBwtpDhiLm-mE_phPpM6VrbKViym6UvzC3zyXq1VLqN6Ulocs3G-GulLISNJtcLEJMmS3Jofyj_znYpIIf8CDg=w2400",
+    time: 1500,
   },
   {
     who: "Katinas",
@@ -511,6 +521,11 @@ let messages = [
     type: "text",
     text: "Ar mokiniai geros nuotaikos po atostogų?",
     time: 3500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/vL7UCgJexAXUCimn8r_cN2oJO8hoRuDb4MVmgsy13_1Lw8f9I0_TG4qi8S0gc3FTvPIeRedOOj92MLg2kd_bEOPqWJMpTdy8IQocZ6yNBwwfhJqwFjVbaSmz70_aHST25UvBvQFoBA=w2400",
+    time: 1500,
   },
   {
     who: "Mokiniai",
