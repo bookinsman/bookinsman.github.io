@@ -262,6 +262,11 @@ let messages = [
   },
   {
     who: "",
+    text: "https://lh3.googleusercontent.com/Wz83txj4NQqFPAUT6fom4dQ72wiSDXe7mAMgoLpkzP9pFGgvMLJfJUv6ZNpIGHXrCoIVnVn4hCJs8vGwrS5GK8-Ffnuw4UUe-PHZ3IHcYaOv0fvm26GOH_BB6CiAhA4X0Z3vXo92gg=w2400",
+    time: 1500,
+  },
+  {
+    who: "",
     type: "text",
     text: "Kodėl dabar juokiesi? Man visai nejuokinga.",
     time: 3500,
@@ -726,6 +731,11 @@ let messages = [
     who: "",
     type: "text",
     text: "Tema pasibaigė, kita bus kitą dieną",
+    time: 1500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/Bl3SsRpE-YPgd9--N3b68Mmb7z71DjYJ-cy_dr2Rg054hnocxKi7BwszLqsSG7iPfrSu38hv-fP9nMikme4aux695s_sKh5C8WvpGo5zTIP_nRprop_OYWg5ejBlsZwk1PTK7k923w=w2400",
     time: 1500,
   },
 ];
