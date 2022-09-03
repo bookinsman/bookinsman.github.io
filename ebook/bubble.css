@@ -225,7 +225,7 @@ body {
 }
 .foot {
   height: 20%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100vw;
   text-align: center;
@@ -258,6 +258,12 @@ body {
   border: none;
 }
 
+.foot .touch-div img {
+  transition-duration: 300;
+}
+.foot .touch-div:active img {
+  transform: translateY(4px);
+}
 
 .link-div {
   position: absolute;
