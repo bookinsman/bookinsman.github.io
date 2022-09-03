@@ -255,6 +255,11 @@ let messages = [
     time: 1500,
   },
   {
+    who: "",
+    text: "https://lh3.googleusercontent.com/xFmC3VM0A83JyWncotDwYUet5cncqEoQuG5DIC_A7U-3pFEgsPdUVU97KOIn_YtzIfw48TyVde15tCfqhzYGm8O-fIuiZcyfvf7HR73r0XCdoWekeO7GR_wisdnYUrLzV7FcE6hSwg=w2400",
+    time: 1500,
+  },
+  {
     who: "Skruzdė",
     type: "text",
     text: "Darbas, darbas, darbas.",
@@ -270,6 +275,11 @@ let messages = [
     who: "",
     type: "text",
     text: "Nepastebėjau, kai įžengiau į didžiulį labirintą. Kaip čia viskas organizuota: sienos, oro vedinimas, maistas, – viskas savo vietose.",
+    time: 1500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/q_SU9lfAvEajU9ATebilSX8oGABlACtZzWB_aZngL711Rn4ET30Wp9ZDNucewaIF9mnSYLeEJaYmaT23Bb8Ts6yPQAhC3pE9DtzIsa-g0TUq6AzP-DsrwzGXGGs1yijxIyNyl8AZGQ=w2400",
     time: 1500,
   },
   {
@@ -343,6 +353,11 @@ let messages = [
     type: "text",
     text: "Tikriausiai juokauji...",
     time: 3500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/ir19MVTd_xoKf5uTXQce_pLr0xuGEExoqdGLrqRa2cncdLXD6iesT38vRZHs5CAcrVV2vDtZp_7HaNHBRCcI1Xg6wn9zy_jBzfvTPnepeR_s3zYkmrW5Xq-y_k1N0cTHCqmEe8XUhQ=w2400",
+    time: 1500,
   },
   {
     who: "Skruzdė",
@@ -714,6 +729,11 @@ let messages = [
     who: "",
     type: "text",
     text: "Šiandien tema baigta, kita tema bus kitą dieną!",
+    time: 1500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/Bl3SsRpE-YPgd9--N3b68Mmb7z71DjYJ-cy_dr2Rg054hnocxKi7BwszLqsSG7iPfrSu38hv-fP9nMikme4aux695s_sKh5C8WvpGo5zTIP_nRprop_OYWg5ejBlsZwk1PTK7k923w=w2400",
     time: 1500,
   },
 ];
