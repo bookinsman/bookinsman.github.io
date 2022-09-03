@@ -881,6 +881,11 @@ let messages = [
     text: "Kita tema prasidės rytoj.",
     time: 3500,
   },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/Bl3SsRpE-YPgd9--N3b68Mmb7z71DjYJ-cy_dr2Rg054hnocxKi7BwszLqsSG7iPfrSu38hv-fP9nMikme4aux695s_sKh5C8WvpGo5zTIP_nRprop_OYWg5ejBlsZwk1PTK7k923w=w2400",
+    time: 1500,
+  },
 ];
 
 let totalMessages = messages.length;

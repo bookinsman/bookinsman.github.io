@@ -274,6 +274,11 @@ let messages = [
   },
   {
     who: "",
+    text: "https://lh3.googleusercontent.com/c-CkqFPbVoqsZQEadCFRb9pPIehTU4hXx_2xXZtdUtHITQrXDBLU4mf-CIUAj6yWHwAXiz_Y-VTO2wrg2id3XlKCKj7XPSLfPWUrsbec3DLnm0_-5GmaJ8c7yFquAgSf4gG0G_dK2Q=w2400",
+    time: 1500,
+  },
+  {
+    who: "",
     type: "text",
     text: "Patalpos lyg ir matytos, pažįstamos...",
     time: 3500,
@@ -534,6 +539,11 @@ let messages = [
     who: "",
     type: "text",
     text: "Kita tema kitą dieną.",
+    time: 1500,
+  },
+  {
+    who: "",
+    text: "https://lh3.googleusercontent.com/Bl3SsRpE-YPgd9--N3b68Mmb7z71DjYJ-cy_dr2Rg054hnocxKi7BwszLqsSG7iPfrSu38hv-fP9nMikme4aux695s_sKh5C8WvpGo5zTIP_nRprop_OYWg5ejBlsZwk1PTK7k923w=w2400",
     time: 1500,
   },
 ];
