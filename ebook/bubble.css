@@ -257,12 +257,7 @@ body {
   outline: none;
   border: none;
 }
-.foot .touch-div img {
-  transition-duration: 300;
-}
-.foot .touch-div:active img {
-  transform: translateY(4px);
-}
+
 
 .link-div {
   position: absolute;
