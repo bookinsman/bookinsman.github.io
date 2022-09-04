@@ -245,7 +245,7 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: " Bėgam, bėgam, greičiau, Sandra!",
+    text: "Bėgam, bėgam, greičiau, Sandra!",
     time: 1500,
   },
   {
