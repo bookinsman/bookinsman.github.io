@@ -217,11 +217,11 @@ body {
   -moz-box-shadow: 0px 1px 37px 6px rgba(0, 0, 0, 0.75);
 }
 .welcome p {
-  font-size: 34px;
-  color: white;
+  font-size: 25px;
+  color: #dedbdb;
   font-weight: bold;
   width: fit-content;
-  margin: 20px auto;
+  margin: 14px auto;
 }
 .foot {
   height: 20%;
