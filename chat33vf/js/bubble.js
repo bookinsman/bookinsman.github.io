@@ -173,25 +173,25 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Buvo 2070-ieji metai, o pasaulis susidūrė su nauja krize – klimato kaita.",
+    text: "Buvo 2037-ieji metai ir pasaulis labai pasikeitė. Robotikos ir dirbtinio intelekto pažanga lėmė, kad robotai paplito visose kasdienio gyvenimo srityse.",
     time: 1500,
   },
   {
     who: "",
     type: "text",
-    text: "Dėl klimato kaitos tradicinis ūkininkavimas tapo vis sudėtingesnis, o gyventojų perteklius sukėlė rimtą maisto krizę: kainos sparčiai kilo, o gero maisto vis labiau trūko.",
+    text: "Nuo savaeigių automobilių ir pristatymo dronų iki robotų, galinčių atlikti operacijas ir rūpintis pagyvenusiais žmonėmis. Tačiau šiems robotams vis labiau plintant, žmonės ėmė abejoti jų poveikiu visuomenei.",
     time: 1500,
   },
   {
     who: "",
     type: "text",
-    text: "Didžioji dauguma žmonių galėjo sau leisti valgyti tik perdirbtą maistą, o maistas iš ūkių be jokių papildomų priedų buvo prieinamas tik labai turtingiems.",
+    text: "Ekspertų grupė, suburta tirti robotų poveikį visuomenei, žinojo, kad turi mąstyti kritiškai ir pasiūlyti sprendimą, kuris būtų naudingas ir žmonijai, ir technologijoms.",
     time: 1500,
   },
   {
     who: "",
     type: "text",
-    text: "Mokslininkai susibūrė į grupę, kad išspręsti sparčiai augančią problemą. Jie žinojo, kad turi mąstyti nestandartiškai ir siūlyti naujoviškus sprendimus, jei nori užtikrinti, kad visi galėtų gauti sveiko ir nebrangaus maisto.",
+    text: "Pirmoji grupės idėja buvo investuoti į robotų reguliavimą. Kurdami įstatymus ir taisykles, reglamentuojančias robotų naudojimą, jie galėtų užtikrinti, kad jie būtų saugūs, etiški ir naudingi visuomenei.",
     time: 1500,
   },
   {
@@ -203,49 +203,19 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Taip pat būtų galima kontroliuoti klimatą ir apšvietimą, užtikrinant, kad augalus būtų galima auginti ištisus metus.",
+    text: "Antroji idėja - investuoti į žmonių ir robotų bendradarbiavimą. Kuriant robotus, galinčius dirbti kartu su žmonėmis, būtų galima užtikrinti, kad robotai papildytų žmogaus galimybes, o ne jas pakeistų.",
     time: 1500,
   },
   {
     who: "",
     type: "text",
-    text: "Antroji idėja - investuoti į laboratorijoje užaugintą mėsą. Naudodami ląstelių modifikaciją mėsai auginti laboratorijoje, jie galėtų atsisakyti didelio masto gyvulininkystės, kuri labiausiai prisideda prie klimato kaitos ir miškų naikinimo bei didelio vandens kiekio suvartojimo. Taip mėsa taptų įperkamesnė ir prieinamesnė visiems.",
+    text: "Trečioji idėja - investuoti į perkvalifikavimo programas. Robotams perėmus tam tikras darbo vietas, reikėtų perkvalifikuoti darbuotojus naujiems darbams, kurių robotai negalėtų atlikti. Tai padėtų užtikrinti, kad robotams vis labiau paplitus darbo rinkoje žmonės neliktų nuošalyje.",
     time: 1500,
   },
   {
     who: "",
     type: "text",
-    text: "Trečioji idėja buvo investuoti į akvaponiką. Šis ūkininkavimo būdas sujungia žuvų ir augalų auginimą uždaro ciklo sistemoje, kurioje žuvų atliekos naudojamos augalams tręšti, o augalai valo vandenį žuvims.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Šis ūkininkavimo būdas yra daug efektyvesnis nei tradiciniai ūkininkavimo metodai ir leidžia pagaminti daugiau maisto mažesnėje erdvėje.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Ketvirtoji idėja - investuoti į biotechnologijas, pavyzdžiui, genetiškai modifikuotus organizmus (GMO), kad būtų sukurti augalai, galintys išgyventi atšiauriomis sąlygomis, atsparūs kenkėjams ir greičiau augantys.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Tai padėtų pagaminti daugiau maisto mažesnėje teritorijoje ir padaryti jį prieinamesnį žmonėms.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Remdamasi šiomis idėjomis grupė tikėjo, kad gali išspręsti maisto krizę ir užtikrinti, kad kiekvienas galėtų gauti sveiko ir nebrangaus maisto.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Ar galite sugalvoti sprendimą, kuris išspręstų šį galvosūkį? Ar galite pasiūlyti penktą variantą, kurio mokslininkai nesvarstė?",
+    text: "Remdamasi šiomis idėjomis grupė tikėjo, kad gali sukurti ateitį, kurioje robotai ir žmonės galėtų darniai sugyventi. Jie žinojo, kad svarbu rasti pusiausvyrą tarp technologijų teikiamos naudos ir visuomenės poreikių.",
     time: 1500,
   },
   {
@@ -257,7 +227,7 @@ let messages = [
   {
     who: "Užduotis 1:",
     type: "text",
-    text: "Vertikaliame ūkyje viename kvadratiniame metre galima išauginti 10 kartų daugiau augalų nei tradiciniame ūkyje. Jei tradiciniame ūkyje galima išauginti 500 kilogramų derliaus viename hektare, kiek kilogramų derliaus viename hektare gali išauginti vertikalusis ūkis?",
+    text: "Jei robotų gamykla per dieną pagamina 50 robotų, kiek robotų bus pagaminta per metus? (365 dienos per metus)",
     time: 1500,
   },
   {
@@ -269,13 +239,13 @@ let messages = [
   {
     who: "Atsakymas:",
     type: "text",
-    text: "500 kilogramų už hektarą x 10 = 5000 kilogramų už hektarą.",
+    text: "50 robotų per dieną x 365 dienos per metus = 18 250 robotų per metus",
     time: 1500,
   },
   {
     who: "Užduotis 2:",
     type: "text",
-    text: "Akvaponiniame ūkyje 3x3 metro plote per metus galima užauginti 150 kilogramų žuvies ir 300 kilogramų daržovių, o tradicinėje žemdirbystėje užauginama apie 40 kilogramų žuvies ir 50 kilogramų daržovių. Kiek daugiau žuvies ir daržovių galima užauginti viename kvadratiniame metre akvaponiniame ūkyje, palyginti su tradicine žemdirbyste?",
+    text: "Jei perkvalifikavimo programa vienam asmeniui kainuoja 1 200 JAV dolerių, o vyriausybė planuoja perkvalifikuoti 20 000 žmonių, kiek tai kainuos?",
     time: 1500,
   },
   {
@@ -287,19 +257,25 @@ let messages = [
   {
     who: "Atsakymas:",
     type: "text",
-    text: "Akvaponiniame ūkyje  150 kilogramų žuvies + 300 kilogramų daržovių = 450 kilogramų.",
+    text: "$1 200 x 20 000 = $24,000,000",
+    time: 1500,
+  },
+  {
+    who: "Užduotis 3:",
+    type: "text",
+    text: "Jei įmonėje dirba 250 darbuotojų ir 20 proc. jų pakeis robotai, kiek žmonių neteks darbo?",
     time: 1500,
   },
   {
     who: "Atsakymas:",
     type: "text",
-    text: "Tradicinėje žemdirbystėje užauginama 40 kilogramų žuvies + 50 kilogramų daržovių = 90 kilogramų.",
+    text: "Kitoje žinutėje bus galimybė pasitikrinti atsakymus",
     time: 1500,
   },
   {
     who: "Atsakymas:",
     type: "text",
-    text: "Vadinsi 450(kg) - 90(kg) = 360 kilogramų akvaponiniame ūkyje galima užaugint daugiau.",
+    text: "250 x 20% = 50 žmonių",
     time: 1500,
   },
   {
