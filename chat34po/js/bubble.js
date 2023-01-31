@@ -315,24 +315,6 @@ let messages = [
     time: 1500,
   },
   {
-    who: "Užduotis 4:",
-    type: "text",
-    text: "Jei tikimasi, kad aikštelę per dieną vidutiniškai aplankys 150 lankytojų, ir komanda nori užtikrinti, kad kiekvienas lankytojas per 2,5 valandos spėtų apžiūrėti visus eksponatus, kiek lankytojų vienu metu gali tilpti aikštelėje?",
-    time: 1500,
-  },
-  {
-    who: "Atsakymas:",
-    type: "text",
-    text: "Kitoje žinutėje bus galimybė pasitikrinti atsakymus",
-    time: 1500,
-  },
-  {
-    who: "Atsakymas:",
-    type: "text",
-    text: "150 lankytojų / 2,5 valandos = 60 lankytojų per valandą.",
-    time: 1500,
-  },
-  {
     who: "",
     type: "text",
     text: "Pamokėlės pabaiga.",

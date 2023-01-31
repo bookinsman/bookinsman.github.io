@@ -309,30 +309,6 @@ let messages = [
     time: 1500,
   },
   {
-    who: "Užduotis 2:",
-    type: "text",
-    text: "Jei tarp dviejų miestų bus sukurta vandens taksi paslauga, kurios talpa - 12 keleivių per kelionę, o paslauga veiks 8 valandas per dieną, kiek keleivių galima pervežti per dieną?",
-    time: 1500,
-  },
-  {
-    who: "Atsakymas:",
-    type: "text",
-    text: "Kitoje žinutėje bus galimybė pasitikrinti atsakymus",
-    time: 1500,
-  },
-  {
-    who: "Atsakymas:",
-    type: "text",
-    text: "Vandens taksi paslauga gali vežti 12 keleivių per vieną reisą ir veikia 8 valandas per dieną. Taigi per 8 valandas kelionėms galima skirti 608 = 480 minučių. Jei vandens taksi paslauga atlieka vieną kelionę per minutę, per 8 valandas galima atlikti 480 kelionių.",
-    time: 1500,
-  },
-  {
-    who: "Atsakymas:",
-    type: "text",
-    text: "Todėl per dieną galima pervežti 48012 = 5760 keleivių.",
-    time: 1500,
-  },
-  {
     who: "",
     type: "text",
     text: "Pamokėlės pabaiga.",

@@ -197,12 +197,6 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Pirmoji grupės idėja buvo investuoti į vertikalųjį ūkininkavimą. Augindami augalus patalpose sluoksniais, jie galėtų padidinti derlių iš vieno kvadratinio pėdos metro žemės ir taip sumažinti didelių ir brangių ūkių poreikį.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
     text: "Antroji idėja - investuoti į žmonių ir robotų bendradarbiavimą. Kuriant robotus, galinčius dirbti kartu su žmonėmis, būtų galima užtikrinti, kad robotai papildytų žmogaus galimybes, o ne jas pakeistų.",
     time: 1500,
   },

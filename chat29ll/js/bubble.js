@@ -203,18 +203,6 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Ketvirtoji galimybė - patobulinti esamą keltų sistemą, įrengiant daugiau keltų, padidinant jų reisų dažnumą ir įdiegiant rezervavimo sistemą.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Tai nebūtų toks greitas ir efektyvus būdas kaip kiti, tačiau jis būtų pigesnis ir nereikalautų tokios didelės infrastruktūros.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
     text: "Be to, tai turėtų neigiamą poveikį jūros gyvūnijai ir aplinkai.",
     time: 1500,
   },

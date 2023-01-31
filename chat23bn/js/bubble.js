@@ -221,12 +221,6 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Ji atrado, kad tokie audiniai kaip organinė medvilnė, bambukas ir linas yra tvarios tradicinių audinių alternatyvos, o jų gamybai galima sunaudoti mažiau vandens ir energijos.", 
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
     text: "Aleksas nusprendė ištirti būdus, kaip padėti žmonėms naudotis išmaniaisiais telefonais darniau ir sveikiau. Jis padarė išvadą, kad žmonėms gali padėti laiko ribojimas naudojantis išmaniojo telefono aplikacijomis.  ", 
     time: 1500,
   },
@@ -299,7 +293,7 @@ let messages = [
   {
     who: "Atsakymas:",
     type: "text",
-    text: "Tai reiškia, kad asmuo turėtų sumažinti arba atsisakyti 120/60 = 2 val. veiklos, kurią atlieka naudodamasis išmaniuoju telefonu.",
+    text: "Tai reiškia, kad asmuo turėtų sumažinti arba atsisakyti 120/60 = 2 val. kitos veiklos, kurią atlieka naudodamasis išmaniuoju telefonu.",
     time: 1500,
   },
   {
