@@ -257,6 +257,12 @@ let messages = [
   {
     who: "Užduotis",
     type: "text",
+    text: "Galite sustoti ir išspręsti užduotis paimdami sąsiūvinį",
+    time: 1500,
+  },
+  {
+    who: "Užduotis",
+    type: "text",
     text: "Erdvėlaivis turi 1000 vienetų elektros energijos ir 2000 vienetų deguonies atsargų. Dėl meteoritų lietaus dingo 20 % elektros energijos ir 30 % deguonies atsargų.",
     time: 1500,
   },
@@ -276,12 +282,6 @@ let messages = [
     who: "Užduotis",
     type: "text",
     text: "3. Jei astronautui per valandą reikia sunaudoti 25 vienetus energijos ir 50 vienetų deguonies, kiek valandų jis gali išgyventi su likusiomis energijos ir deguonies atsargomis?",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
-    text: "Galite sustoti ir išspręsti užduotis paimdami sąsiūvinį.",
     time: 1500,
   },
   {
