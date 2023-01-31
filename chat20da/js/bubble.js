@@ -293,7 +293,7 @@ let messages = [
   {
     who: "Užduotis",
     type: "text",
-    text: "Kaimo popieriaus fabrikas per dieną iškerta 100 medžių, iš kurių gaminamas popierius knygoms. Jei iš kiekvieno medžio galima pagaminti tiek popieriaus, kad jo užtektų 1000 knygų, o kiekvienos knygos ilgis yra 200 puslapių, kiek puslapių popieriaus kaimas gali pagaminti per metus nenukirsdamas daugiau medžių?",
+    text: "mokinys nori nusipirkti knygą, kuri kainuoja 10 dolerių. Jei mokinys nori nusipirkti dvi knygas, kiek jos kainuos? Mokinys taip pat nori sužinoti, kiek pinigų jis sutaupys, jei knygos bus parduodamos su 20 % nuolaida.",
     time: 1500,
   },
   {
@@ -305,43 +305,13 @@ let messages = [
   {
     who: "Atsakymai:",
     type: "text",
-    text: "Pirmiausia apskaičiuokite bendrą knygų skaičių, kurį galima pagaminti iš vieno medžio, padaugindami knygų skaičių viename medyje (1000) iš per dieną iškertamų medžių skaičiaus (100). ",
-    time: 1500,
-  },
-  {
-    who: "Atsakymai:",
-    type: "text",
-    text: "1000 x 100 = 100 000 knygų",
-    time: 1500,
-  },
-  {
-    who: "Atsakymai:",
-    type: "text",
-    text: "Kiekvienos knygos ilgis yra 200 puslapių, todėl per dieną jie gali pagaminti 100 000 knygų * 200 puslapių = 20 000 000 puslapių popieriaus.",
-    time: 1500,
-  },
-  {
-    who: "Atsakymai:",
-    type: "text",
-    text: "Apskaičiuokite bendrą popieriaus puslapių skaičių, kurį galima pagaminti per metus nenukertant daugiau medžių, padauginę puslapių skaičių vienam medžiui (200 000) iš metų dienų skaičiaus (365).",
-    time: 1500,
-  },
-  {
-    who: "Atsakymai:",
-    type: "text",
-    text: "200 000 x 365 = 73 000 000 000 puslapių",
-    time: 1500,
-  },
-  {
-    who: "Atsakymai:",
-    type: "text",
-    text: "Taigi, per metus kaimas gali pagaminti 73 milijonus puslapių popieriaus, nenukirsdamas tiek daug medžių.",
+    text: "Dvi knygos kainuos 10 USD x 2 = 20 USD. Taikant 20 % nuolaidą, bendra knygų kaina bus 20 $ - (20 $ x 0,2) = 16 $. Mokinys sutaupys 20 $ - 16 $ = 4 $, jei knygos bus parduotos.",
     time: 1500,
   },
   {
     who: "Užduotis:",
     type: "text",
-    text: "Per dieną kaime pagaminama 15000 knygų. Apskaičiuokite, per kiek dienų kaimas sunaudos popierių iš 100 medžių, nukirstų per dieną, jei popieriui gaminti bus naudojamos tik žemės ūkio atliekos.",
+    text: "Mokinys turi 10 knygų su skirtingu puslapių skaičiumi. Kiekvienos knygos puslapių skaičius yra toks: 100, 120, 140, 150, 160, 170, 180, 190, 200, 220. Koks yra vidutinis puslapių skaičius vienoje knygoje?",
     time: 1500,
   },
   {
@@ -353,19 +323,7 @@ let messages = [
   {
     who: "Atsakymai:",
     type: "text",
-    text: "Iš pirmosios užduoties žinome, kad iš 100 medžių galima pagaminti 200 000 puslapių popieriaus, o kadangi kiekviena knyga yra 200 puslapių, vadinasi, iš 100 medžių galima pagaminti 200 000/200 = 1000 knygų.",
-    time: 1500,
-  },
-  {
-    who: "Atsakymai:",
-    type: "text",
-    text: "Taigi, jei popieriui gaminti bus naudojamos tik žemės ūkio atliekos, kaimui prireiks 15000 knygų per dieną /1000 knygų vienam medžiui = 15 dienų, kad sunaudotų popierių iš 100 medžių, nukirstų per dieną.",
-    time: 1500,
-  },
-  {
-    who: "Atsakymai:",
-    type: "text",
-    text: "1000 x 100 = 100 000 knygų",
+    text: "Vidutinis puslapių skaičius: (100 + 120 + 140 + 150 + 160 + 170 + 180 + 190 + 200 + 220) / 10 = 165 puslapiai knygoje.",
     time: 1500,
   },
   {
