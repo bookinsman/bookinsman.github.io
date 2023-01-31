@@ -203,12 +203,6 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Ji sužinojo, kad atsinaujinantys energijos šaltiniai, tokie kaip saulės, vėjo ir vandens energija, yra raktas į miesto energetikos problemų sprendimą.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
     text: "Analizuodama surinktus duomenis Mia suprato, kad fabrikas ir parduotuvės gamino ir pardavinėjo tik tuos drabužius, kurie turėjo didelę paklausą.",
     time: 1500,
   },
@@ -291,9 +285,9 @@ let messages = [
     time: 1500,
   },
   {
-    who: "Užduotis",
+    who: "Užduotis 2",
     type: "text",
-    text: "Jei žaliųjų obligacijų programa bus sėkminga ir miestui pavyks surinkti 5 000 000 JAV dolerių iš gyventojų, kurie bus skirti investuoti į perėjimą prie atsinaujinančiosios energijos. Jei plano įgyvendinimo išlaidos sudaro 10 000 000 USD, o miesto valdžia ketina investuoti likusius 5 000 000 USD. Per kiek metų piliečiams atsipirks jų investicijos į žaliųjų obligacijų programą, jei miesto valdžia ketina jiems grąžinti 5 % investicijų per metus?",
+    text: "Jei fabrikas pradės naudoti ekologišką medvilnę kaip tvaraus audinio alternatyvą, 1 metrui audinio pagaminti bus sunaudojama 50 litrų vandens. Jei fabrikas ir toliau gamins 1000 metrų audinio per dieną, kiek vandens bus sutaupyta per dieną naudojant ekologišką medvilnę?",
     time: 1500,
   },
   {

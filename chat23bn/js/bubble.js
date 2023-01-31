@@ -215,12 +215,6 @@ let messages = [
   {
     who: "",
     type: "text",
-    text: "Ji taip pat pastebėjo, kad fabrikas audiniams gaminti naudoja daug vandens, energijos ir cheminių medžiagų, o tai ne tik kenkia aplinkai, bet ir brangiai kainuoja.",
-    time: 1500,
-  },
-  {
-    who: "",
-    type: "text",
     text: "Jis atrado, kad žmonės naudojo išmaniuosius telefonus tam, kad atitrauktų dėmesį nuo problemų, atidėliotų darbus ir vengtų bendravimo.", 
     time: 1500,
   },

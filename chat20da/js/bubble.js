@@ -317,6 +317,12 @@ let messages = [
   {
     who: "Atsakymai:",
     type: "text",
+    text: "Kiekvienos knygos ilgis yra 200 puslapių, todėl per dieną jie gali pagaminti 100 000 knygų * 200 puslapių = 20 000 000 puslapių popieriaus.",
+    time: 1500,
+  },
+  {
+    who: "Atsakymai:",
+    type: "text",
     text: "Apskaičiuokite bendrą popieriaus puslapių skaičių, kurį galima pagaminti per metus nenukertant daugiau medžių, padauginę puslapių skaičių vienam medžiui (200 000) iš metų dienų skaičiaus (365).",
     time: 1500,
   },
