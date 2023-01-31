@@ -293,7 +293,7 @@ let messages = [
   {
     who: "Užduotis",
     type: "text",
-    text: "mokinys nori nusipirkti knygą, kuri kainuoja 10 dolerių. Jei mokinys nori nusipirkti dvi knygas, kiek jos kainuos? Mokinys taip pat nori sužinoti, kiek pinigų jis sutaupys, jei knygos bus parduodamos su 20 % nuolaida.",
+    text: "Mokinys nori nusipirkti knygą, kuri kainuoja 10 dolerių. Jei mokinys nori nusipirkti dvi knygas, kiek jos kainuos? Mokinys taip pat nori sužinoti, kiek pinigų jis sutaupys, jei knygos bus parduodamos su 20 % nuolaida.",
     time: 1500,
   },
   {
