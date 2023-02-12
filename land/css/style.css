@@ -21,21 +21,6 @@ h2 {
 
 
 
-    .ball {
-        position: fixed;
-        border-radius: 100%;
-        opacity: 0.25;
-      }A
-
-
-
-
-
-
-
-
-      
-
       ::selection {
         background-color: #000000c2;
         color: white;
