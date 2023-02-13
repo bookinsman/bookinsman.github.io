@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-container {
+  padding: 20px;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+
+  
+  @media screen and (min-width: 600px){ 
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
