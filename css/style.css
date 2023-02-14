@@ -101,6 +101,29 @@ section{
     background:var(--dark-color);
 }
 
+.btn1{
+    
+    display: flex; /* or display:grid */
+    justify-content: center;
+    margin-top: 4rem;
+ background-image: linear-gradient(to right, #E44D26 0%, #F16529 51%, #E44D26 100%);    
+    margin: 7px;
+    padding: 0.9rem 3rem;
+    text-transform: uppercase;
+    transition: .5s;
+    background-size: 60% auto;
+    color: #eee;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn1:hover{
+    background:var(--dark-color);
+}
+
 
 .header .header-1{
     background:#fff;
