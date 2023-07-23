@@ -80,6 +80,41 @@ section{
     border:var(--border);
 }
 
+.home{
+    margin-top: 6rem;
+ }
+ 
+ .home .container-fluid{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+ }
+ 
+ .home .container-fluid .content{
+    flex:1 1 40rem;
+    text-align: center;
+ }
+ 
+ .home .container-fluid .image{
+    flex:1 1 40rem;
+ }
+ 
+ .home .container-fluid .image img{
+    width: 100%;
+ }
+ 
+ .home .container-fluid .content h2{
+    margin-bottom: 1rem;
+    font-size: 10rem;
+    color:var(--white);
+    line-height: 1;
+ }
+ 
+ .home .container-fluid .content h2 span{
+    color:var(--green);
+ }
+
 .btn{
     display: inline-block;
     margin-top: 4rem;
