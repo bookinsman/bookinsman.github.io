@@ -122,9 +122,11 @@ section {
   padding: 2rem 9%;
 }
 
+
 .header .logo {
   font-size: 2.5rem;
   color: #000;
+  
 }
 
 .header .navbar a {
